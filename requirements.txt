@@ -1,0 +1,8 @@
+# Core dependencies
+pyzmq>=25.1.0
+pymongo>=4.6.0
+python-dotenv>=1.0.0
+
+# MetaTrader5 requires Python 3.6-3.12 (64-bit Windows only)
+# Install separately with: pip install MetaTrader5
+# MetaTrader5>=5.0.45

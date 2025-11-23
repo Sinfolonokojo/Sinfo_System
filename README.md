@@ -1,6 +1,50 @@
-# Prop Firm Multi-Account Copy Trading System
+# Prop Firm Trading System
 
-A low-latency, cross-broker trade copying infrastructure designed for Proprietary Trading Firms (FTMO, Apex, Funded Engineer, etc.). Bypasses MT5's single-account limitation using asynchronous multiprocessing and ZeroMQ message bus.
+A comprehensive trading system for Proprietary Trading Firms (FTMO, Apex, Funded Engineer, etc.) consisting of two main components:
+
+1. **Elastic Band Trading Bot** - Automated mean reversion strategy for passing prop firm challenges
+2. **Multi-Account Copy Trading** - Trade copying infrastructure across multiple accounts
+
+---
+
+## Component 1: Elastic Band Trading Bot
+
+A high-win-rate mean reversion strategy designed to pass prop firm evaluations within strict drawdown limits.
+
+**Core Philosophy:** Risk Management is the primary driver; Trade Signals are secondary.
+
+### Quick Start
+
+```bash
+# Run the bot
+python bot/main.py --account YOUR_ACCOUNT --password YOUR_PASSWORD --server YOUR_SERVER
+
+# Run backtests
+python bot/backtest_runner.py --symbols EURUSD,GBPUSD,USDJPY --phase 1 --days 90
+
+# Run tests
+python -m pytest tests/ -v
+```
+
+**Full Documentation:** [docs/ELASTIC_BAND_BOT.md](docs/ELASTIC_BAND_BOT.md)
+
+### Strategy Overview
+
+- **Type:** Trend-Following Mean Reversion
+- **Timeframe:** M15
+- **Assets:** EURUSD, GBPUSD, USDJPY
+
+| Phase | Profit Target | Daily Loss Limit | Risk/Trade |
+|-------|--------------|------------------|------------|
+| Challenge | 10% | 4.5% buffer | 1.0% |
+| Verification | 8% | 4.5% buffer | 0.5-0.8% |
+| Funded | Growth | 3.0% buffer | 0.25-0.5% |
+
+---
+
+## Component 2: Multi-Account Copy Trading
+
+A low-latency, cross-broker trade copying infrastructure. Bypasses MT5's single-account limitation using asynchronous multiprocessing and ZeroMQ message bus.
 
 ## Architecture
 
@@ -201,23 +245,48 @@ When the master closes a position, the system queries this mapping to close the 
 
 ```
 Sinfo_System/
-├── config.py                  # Configuration constants
-├── launcher.py                # Main orchestrator
+├── config.py                  # Global configuration
+├── launcher.py                # Copy trading orchestrator
 ├── setup_db.py                # Database initialization
 ├── requirements.txt           # Dependencies
 ├── README.md                  # This file
-├── db/
+│
+├── bot/                       # Elastic Band Trading Bot
 │   ├── __init__.py
-│   ├── connection.py          # MongoDB connection manager
+│   ├── config.py              # Phase & strategy configs
+│   ├── risk_manager.py        # Risk management module
+│   ├── indicators.py          # EMA, RSI, ATR
+│   ├── strategy.py            # Signal detection
+│   ├── news_filter.py         # ForexFactory integration
+│   ├── trader.py              # Order execution
+│   ├── main.py                # Bot entry point
+│   ├── backtester.py          # Historical testing
+│   └── backtest_runner.py     # Backtest CLI
+│
+├── tests/                     # Unit tests
+│   ├── __init__.py
+│   ├── test_risk_manager.py
+│   ├── test_strategy.py
+│   └── test_indicators.py
+│
+├── docs/                      # Documentation
+│   └── ELASTIC_BAND_BOT.md    # Bot documentation
+│
+├── db/                        # MongoDB
+│   ├── __init__.py
+│   ├── connection.py          # Connection manager
 │   └── models.py              # Account & Trade models
-├── messaging/
+│
+├── messaging/                 # ZeroMQ
 │   ├── __init__.py
-│   └── zmq_bus.py             # ZeroMQ PUB/SUB classes
-├── nodes/
+│   └── zmq_bus.py             # PUB/SUB classes
+│
+├── nodes/                     # Copy trading nodes
 │   ├── __init__.py
 │   ├── master.py              # Signal Generator
 │   └── slave.py               # Execution Engine
-└── utils/
+│
+└── utils/                     # Utilities
     ├── __init__.py
     ├── logger.py              # Logging setup
     └── symbol_translator.py   # Symbol normalization

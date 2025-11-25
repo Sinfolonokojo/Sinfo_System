@@ -1,9 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)",
-      "Bash(pip install:*)",
-      "Bash(git init:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Elastic Band Trading Bot with backtesting and tests\n\nNew Features:\n- Complete trading bot for prop firm challenges (bot/)\n  - Risk management: Daily Loss Guard, Position Sizer, Tilt Protection\n  - Strategy: Trend-following mean reversion (EMA 200/50 + RSI 7)\n  - News filter: ForexFactory calendar integration\n  - Order execution: IOC fills with SL/TP management\n  - Time-based exits for profitable trades\n\n- Backtesting system\n  - Historical simulation using MT5 data\n  - Performance metrics: Win rate, Profit factor, Max DD, etc.\n  - Prop firm viability analysis\n  - Multi-symbol and multi-phase testing\n\n- Unit tests for core modules\n  - test_risk_manager.py: DLG, Sizer, Tilt tests\n  - test_strategy.py: Signal detection tests\n  - test_indicators.py: EMA, RSI, ATR calculations\n\n- Documentation\n  - Updated README with both system components\n  - Detailed bot docs in docs/ELASTIC_BAND_BOT.md\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(python:*)",
       "Bash(git add:*)"
     ],
     "deny": [],

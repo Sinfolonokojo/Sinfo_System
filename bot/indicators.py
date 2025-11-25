@@ -171,6 +171,112 @@ class Indicators:
 
         return atr
 
+    def calculate_macd(self, close_prices: np.ndarray, fast: int = 12, slow: int = 27, signal: int = 9) -> Dict[str, np.ndarray]:
+        """
+        Calculate MACD (Moving Average Convergence Divergence).
+
+        Args:
+            close_prices: Close price array.
+            fast: Fast EMA period (default 12).
+            slow: Slow EMA period (default 27).
+            signal: Signal line period (default 9).
+
+        Returns:
+            Dictionary with 'macd', 'signal', and 'histogram' arrays.
+        """
+        # Calculate fast and slow EMAs
+        ema_fast = self.calculate_ema(close_prices, fast)
+        ema_slow = self.calculate_ema(close_prices, slow)
+
+        # MACD line
+        macd_line = ema_fast - ema_slow
+
+        # Signal line (EMA of MACD)
+        signal_line = self.calculate_ema(macd_line, signal)
+
+        # Histogram
+        histogram = macd_line - signal_line
+
+        return {
+            'macd': macd_line,
+            'signal': signal_line,
+            'histogram': histogram
+        }
+
+    def calculate_bollinger_bands(self, close_prices: np.ndarray, period: int = 20, std_dev: float = 2.0) -> Dict[str, np.ndarray]:
+        """
+        Calculate Bollinger Bands.
+
+        Args:
+            close_prices: Close price array.
+            period: Moving average period (default 20).
+            std_dev: Standard deviation multiplier (default 2.0).
+
+        Returns:
+            Dictionary with 'upper', 'middle', and 'lower' band arrays.
+        """
+        # Calculate SMA for middle band
+        middle_band = np.zeros(len(close_prices))
+        upper_band = np.zeros(len(close_prices))
+        lower_band = np.zeros(len(close_prices))
+
+        for i in range(period - 1, len(close_prices)):
+            window = close_prices[i - period + 1:i + 1]
+            middle = np.mean(window)
+            std = np.std(window)
+
+            middle_band[i] = middle
+            upper_band[i] = middle + (std * std_dev)
+            lower_band[i] = middle - (std * std_dev)
+
+        return {
+            'upper': upper_band,
+            'middle': middle_band,
+            'lower': lower_band
+        }
+
+    def calculate_mfi(self, rates: np.ndarray, period: int = 14) -> np.ndarray:
+        """
+        Calculate Money Flow Index.
+
+        Args:
+            rates: OHLC data array.
+            period: MFI period (default 14).
+
+        Returns:
+            MFI values array.
+        """
+        high = rates['high']
+        low = rates['low']
+        close = rates['close']
+        volume = rates['tick_volume']  # Use tick volume
+
+        mfi = np.zeros(len(rates))
+
+        # Calculate typical price
+        typical_price = (high + low + close) / 3
+
+        # Calculate raw money flow
+        money_flow = typical_price * volume
+
+        for i in range(period, len(rates)):
+            positive_flow = 0
+            negative_flow = 0
+
+            for j in range(i - period, i):
+                if typical_price[j + 1] > typical_price[j]:
+                    positive_flow += money_flow[j + 1]
+                elif typical_price[j + 1] < typical_price[j]:
+                    negative_flow += money_flow[j + 1]
+
+            if negative_flow == 0:
+                mfi[i] = 100
+            else:
+                money_ratio = positive_flow / negative_flow
+                mfi[i] = 100 - (100 / (1 + money_ratio))
+
+        return mfi
+
     def update(self, symbol: str) -> bool:
         """
         Update all indicators for a symbol.

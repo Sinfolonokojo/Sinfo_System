@@ -143,8 +143,8 @@ def main():
     )
     parser.add_argument(
         '--output-dir',
-        default='bot/optimization',
-        help='Output directory for parameter files (default: bot/optimization)'
+        default='tests/parameter_sets',
+        help='Output directory for parameter files (default: tests/parameter_sets)'
     )
 
     args = parser.parse_args()

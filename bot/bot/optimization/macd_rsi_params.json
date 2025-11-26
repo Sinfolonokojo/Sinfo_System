@@ -1,0 +1,807 @@
+{
+  "strategy": "macd_rsi",
+  "timestamp": "2025-11-25T18:56:00.513167",
+  "total_combinations": 100,
+  "combinations": [
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 8,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 12,
+      "macd_slow": 33,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 21,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 9,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 27,
+      "macd_signal": 11,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 5,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 7,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 9,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    },
+    {
+      "macd_fast": 16,
+      "macd_slow": 33,
+      "macd_signal": 7,
+      "rsi_period": 14,
+      "macd_rsi_atr_sl": 1.5,
+      "macd_rsi_rr_ratio": 1.5
+    }
+  ]
+}

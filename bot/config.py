@@ -66,7 +66,7 @@ class StrategyType(Enum):
 
 
 # Active strategy (change this to switch strategies)
-ACTIVE_STRATEGY = StrategyType.ELASTIC_BAND
+ACTIVE_STRATEGY = StrategyType.MACD_RSI
 
 
 # Strategy parameters

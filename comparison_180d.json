@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-11-25T19:16:12.338699",
+  "strategies": {
+    "Elastic_Band": [
+      {
+        "symbol": "EURUSD",
+        "phase": "Challenge",
+        "total_trades": 258,
+        "win_rate": 53.100775193798455,
+        "net_profit": -35.961488385044504,
+        "profit_factor": 0.996955502157071,
+        "max_drawdown_pct": 12.188977874260582,
+        "expectancy": -0.13938561389552134
+      },
+      {
+        "symbol": "GBPUSD",
+        "phase": "Challenge",
+        "total_trades": 227,
+        "win_rate": 58.14977973568281,
+        "net_profit": 1464.2405735962056,
+        "profit_factor": 1.13979869396779,
+        "max_drawdown_pct": 6.770699968792523,
+        "expectancy": 6.450399002626456
+      },
+      {
+        "symbol": "USDJPY",
+        "phase": "Challenge",
+        "total_trades": 214,
+        "win_rate": 52.336448598130836,
+        "net_profit": -824.1141349457685,
+        "profit_factor": 0.9158050545780146,
+        "max_drawdown_pct": 11.753644387366348,
+        "expectancy": -3.851000630587703
+      }
+    ],
+    "Elastic_Band_Aggressive": [
+      {
+        "symbol": "EURUSD",
+        "phase": "Challenge",
+        "total_trades": 336,
+        "win_rate": 53.57142857142857,
+        "net_profit": -390.7969842061866,
+        "profit_factor": 0.9729168937925132,
+        "max_drawdown_pct": 23.640264844954572,
+        "expectancy": -1.1630862625184126
+      },
+      {
+        "symbol": "GBPUSD",
+        "phase": "Challenge",
+        "total_trades": 297,
+        "win_rate": 60.26936026936027,
+        "net_profit": 5817.342391023625,
+        "profit_factor": 1.3953894775560192,
+        "max_drawdown_pct": 12.627606505870153,
+        "expectancy": 19.587011417587963
+      },
+      {
+        "symbol": "USDJPY",
+        "phase": "Challenge",
+        "total_trades": 302,
+        "win_rate": 54.63576158940398,
+        "net_profit": -424.43606115228977,
+        "profit_factor": 0.9674082528967588,
+        "max_drawdown_pct": 19.320373453045686,
+        "expectancy": -1.405417421034072
+      }
+    ],
+    "Elastic_Band_Conservative": [
+      {
+        "symbol": "EURUSD",
+        "phase": "Challenge",
+        "total_trades": 33,
+        "win_rate": 57.57575757575758,
+        "net_profit": 313.24617257810314,
+        "profit_factor": 1.2198509476244883,
+        "max_drawdown_pct": 6.964668454653639,
+        "expectancy": 9.492308259942519
+      },
+      {
+        "symbol": "GBPUSD",
+        "phase": "Challenge",
+        "total_trades": 24,
+        "win_rate": 62.5,
+        "net_profit": 604.6530212031594,
+        "profit_factor": 1.6322979686014896,
+        "max_drawdown_pct": 4.2761862592079165,
+        "expectancy": 25.193875883464973
+      },
+      {
+        "symbol": "USDJPY",
+        "phase": "Challenge",
+        "total_trades": 35,
+        "win_rate": 51.42857142857142,
+        "net_profit": 26.899055304742433,
+        "profit_factor": 1.0163610864493726,
+        "max_drawdown_pct": 7.336545029531518,
+        "expectancy": 0.7685444372783552
+      }
+    ]
+  }
+}

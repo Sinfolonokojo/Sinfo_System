@@ -1,0 +1,3458 @@
+[
+  {
+    "symbol": "EURUSD",
+    "phase": "Challenge",
+    "start_date": "2025-08-27T19:07:49.231247",
+    "end_date": "2025-11-25T19:07:49.231247",
+    "initial_balance": 10000.0,
+    "final_balance": 10121.702206719541,
+    "net_profit": 121.70220671954121,
+    "total_trades": 129,
+    "winning_trades": 68,
+    "losing_trades": 61,
+    "win_rate": 52.71317829457365,
+    "profit_factor": 1.0201282155138323,
+    "max_drawdown": 1238.431188926439,
+    "max_drawdown_pct": 12.38431188926439,
+    "max_consecutive_losses": 6,
+    "average_win": 90.70662879968144,
+    "average_loss": 99.12046805998037,
+    "expectancy": 0.9434279590662109,
+    "trades": [
+      {
+        "entry_time": "2025-09-01T11:00:00",
+        "exit_time": "2025-09-01T13:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17133,
+        "exit_price": 1.1704122643268597,
+        "profit": -100.03318837228626,
+        "profit_pips": -9.177356731402408,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-01T14:15:00",
+        "exit_time": "2025-09-01T17:15:00",
+        "direction": "BUY",
+        "entry_price": 1.17022,
+        "exit_price": 1.17099063509284,
+        "profit": 98.64129188352422,
+        "profit_pips": 7.7063509284003295,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-01T23:15:00",
+        "exit_time": "2025-09-02T00:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1703999999999999,
+        "exit_price": 1.169763860183682,
+        "profit": -99.87395116191622,
+        "profit_pips": -6.361398163179377,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-02T00:30:00",
+        "exit_time": "2025-09-02T02:00:00",
+        "direction": "BUY",
+        "entry_price": 1.16986,
+        "exit_price": 1.1690751080680557,
+        "profit": -98.89638342496899,
+        "profit_pips": -7.848919319441983,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-02T12:30:00",
+        "exit_time": "2025-09-02T14:00:00",
+        "direction": "SELL",
+        "entry_price": 1.1668,
+        "exit_price": 1.1648085193989306,
+        "profit": 97.58254945240363,
+        "profit_pips": 19.91480601069462,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-03T04:45:00",
+        "exit_time": "2025-09-03T05:15:00",
+        "direction": "SELL",
+        "entry_price": 1.16328,
+        "exit_price": 1.1625294421812662,
+        "profit": 99.07363207287467,
+        "profit_pips": 7.50557818733899,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-03T06:30:00",
+        "exit_time": "2025-09-03T07:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16452,
+        "exit_price": 1.165938985989843,
+        "profit": -99.32901928901173,
+        "profit_pips": -14.189859898430246,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-03T07:00:00",
+        "exit_time": "2025-09-03T08:30:00",
+        "direction": "SELL",
+        "entry_price": 1.16534,
+        "exit_price": 1.1639396505231847,
+        "profit": 99.42481285388861,
+        "profit_pips": 14.003494768153324,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-04T17:15:00",
+        "exit_time": "2025-09-04T21:30:00",
+        "direction": "SELL",
+        "entry_price": 1.1647,
+        "exit_price": 1.1655978914872653,
+        "profit": -99.66595508644473,
+        "profit_pips": -8.978914872652677,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-05T16:45:00",
+        "exit_time": "2025-09-07T20:30:00",
+        "direction": "BUY",
+        "entry_price": 1.17174,
+        "exit_price": 1.1704967525816006,
+        "profit": -99.45979347195433,
+        "profit_pips": -12.432474183994291,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-07T21:00:00",
+        "exit_time": "2025-09-07T23:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17078,
+        "exit_price": 1.1716336397804603,
+        "profit": 98.16857475294373,
+        "profit_pips": 8.536397804603801,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-09T04:45:00",
+        "exit_time": "2025-09-09T05:30:00",
+        "direction": "BUY",
+        "entry_price": 1.1764999999999999,
+        "exit_price": 1.1755333308541762,
+        "profit": -98.60025287401353,
+        "profit_pips": -9.66669145823662,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-09T06:15:00",
+        "exit_time": "2025-09-09T07:30:00",
+        "direction": "BUY",
+        "entry_price": 1.17561,
+        "exit_price": 1.1768994637987893,
+        "profit": 97.99924870798283,
+        "profit_pips": 12.894637987892477,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-09T10:45:00",
+        "exit_time": "2025-09-09T12:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17376,
+        "exit_price": 1.1749941221066078,
+        "profit": 98.72976852863147,
+        "profit_pips": 12.341221066078933,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-10T03:30:00",
+        "exit_time": "2025-09-10T03:45:00",
+        "direction": "SELL",
+        "entry_price": 1.17117,
+        "exit_price": 1.1705858919056478,
+        "profit": 99.88248413423916,
+        "profit_pips": 5.841080943522758,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-11T22:45:00",
+        "exit_time": "2025-09-11T23:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17333,
+        "exit_price": 1.1727592988478055,
+        "profit": -101.01410393842403,
+        "profit_pips": -5.70701152194486,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-11T23:15:00",
+        "exit_time": "2025-09-12T02:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17275,
+        "exit_price": 1.1721185400234628,
+        "profit": -99.77067629286651,
+        "profit_pips": -6.314599765371298,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-12T07:15:00",
+        "exit_time": "2025-09-12T08:30:00",
+        "direction": "BUY",
+        "entry_price": 1.17234,
+        "exit_price": 1.1734195223789121,
+        "profit": 99.31605885992046,
+        "profit_pips": 10.795223789121788,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-14T22:30:00",
+        "exit_time": "2025-09-15T01:15:00",
+        "direction": "BUY",
+        "entry_price": 1.17243,
+        "exit_price": 1.1730448042194486,
+        "profit": 100.21308777010286,
+        "profit_pips": 6.148042194484837,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-15T04:45:00",
+        "exit_time": "2025-09-15T05:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17249,
+        "exit_price": 1.1731387660558448,
+        "profit": 101.20750471177952,
+        "profit_pips": 6.487660558447406,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-15T19:00:00",
+        "exit_time": "2025-09-15T22:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17625,
+        "exit_price": 1.17628,
+        "profit": 4.979999999995766,
+        "profit_pips": 0.2999999999997449,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-15T22:45:00",
+        "exit_time": "2025-09-15T23:45:00",
+        "direction": "BUY",
+        "entry_price": 1.17622,
+        "exit_price": 1.176725775591323,
+        "profit": 102.16666944723008,
+        "profit_pips": 5.057755913229212,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-17T00:45:00",
+        "exit_time": "2025-09-17T03:45:00",
+        "direction": "BUY",
+        "entry_price": 1.18555,
+        "exit_price": 1.18583,
+        "profit": 45.63999999997326,
+        "profit_pips": 2.7999999999983594,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-17T05:30:00",
+        "exit_time": "2025-09-17T08:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1844000000000001,
+        "exit_price": 1.1835282533950386,
+        "profit": -103.73784599041568,
+        "profit_pips": -8.717466049614764,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-17T08:15:00",
+        "exit_time": "2025-09-17T11:00:00",
+        "direction": "BUY",
+        "entry_price": 1.18376,
+        "exit_price": 1.1847133426446488,
+        "profit": 102.0076629774278,
+        "profit_pips": 9.53342644648858,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-19T01:30:00",
+        "exit_time": "2025-09-19T02:15:00",
+        "direction": "SELL",
+        "entry_price": 1.17877,
+        "exit_price": 1.177909202123537,
+        "profit": 103.29574517558447,
+        "profit_pips": 8.60797876463204,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-19T12:45:00",
+        "exit_time": "2025-09-19T13:15:00",
+        "direction": "SELL",
+        "entry_price": 1.17575,
+        "exit_price": 1.1742863664011882,
+        "profit": 103.91798551564158,
+        "profit_pips": 14.636335988118532,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-22T05:00:00",
+        "exit_time": "2025-09-22T05:15:00",
+        "direction": "SELL",
+        "entry_price": 1.17399,
+        "exit_price": 1.1748878075421954,
+        "profit": -105.94128997904083,
+        "profit_pips": -8.978075421952614,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-22T05:30:00",
+        "exit_time": "2025-09-22T06:00:00",
+        "direction": "SELL",
+        "entry_price": 1.1751,
+        "exit_price": 1.1761820865539157,
+        "profit": -104.9623957298149,
+        "profit_pips": -10.820865539156177,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-22T07:15:00",
+        "exit_time": "2025-09-22T07:45:00",
+        "direction": "SELL",
+        "entry_price": 1.17641,
+        "exit_price": 1.177504405893641,
+        "profit": -102.87415400226064,
+        "profit_pips": -10.944058936410705,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-23T04:15:00",
+        "exit_time": "2025-09-23T04:45:00",
+        "direction": "BUY",
+        "entry_price": 1.17937,
+        "exit_price": 1.1801484420446542,
+        "profit": 102.75434989434906,
+        "profit_pips": 7.784420446541596,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-23T05:30:00",
+        "exit_time": "2025-09-23T06:45:00",
+        "direction": "BUY",
+        "entry_price": 1.17903,
+        "exit_price": 1.180284076842253,
+        "profit": 102.83430106473547,
+        "profit_pips": 12.540768422528714,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-24T00:30:00",
+        "exit_time": "2025-09-24T03:45:00",
+        "direction": "BUY",
+        "entry_price": 1.18001,
+        "exit_price": 1.1792479962616378,
+        "profit": -104.39451215562359,
+        "profit_pips": -7.620037383622158,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-24T21:45:00",
+        "exit_time": "2025-09-24T22:45:00",
+        "direction": "SELL",
+        "entry_price": 1.17424,
+        "exit_price": 1.174690066116574,
+        "profit": -103.51520681203264,
+        "profit_pips": -4.500661165740549,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-24T23:00:00",
+        "exit_time": "2025-09-25T00:30:00",
+        "direction": "SELL",
+        "entry_price": 1.17449,
+        "exit_price": 1.1750727190236987,
+        "profit": -102.55854817096477,
+        "profit_pips": -5.827190236986635,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-25T00:45:00",
+        "exit_time": "2025-09-25T03:15:00",
+        "direction": "SELL",
+        "entry_price": 1.1750099999999999,
+        "exit_price": 1.1743823028579803,
+        "profit": 101.05923986515576,
+        "profit_pips": 6.276971420196009,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-25T23:30:00",
+        "exit_time": "2025-09-26T00:30:00",
+        "direction": "SELL",
+        "entry_price": 1.16693,
+        "exit_price": 1.1676250483444042,
+        "profit": -102.17210662740973,
+        "profit_pips": -6.9504834440414776,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T01:00:00",
+        "exit_time": "2025-09-26T02:15:00",
+        "direction": "SELL",
+        "entry_price": 1.16753,
+        "exit_price": 1.1681546372990248,
+        "profit": -101.19124244202472,
+        "profit_pips": -6.246372990248439,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T02:15:00",
+        "exit_time": "2025-09-26T04:00:00",
+        "direction": "SELL",
+        "entry_price": 1.1676199999999999,
+        "exit_price": 1.1682671338622772,
+        "profit": -100.30574865298571,
+        "profit_pips": -6.4713386227732705,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T11:15:00",
+        "exit_time": "2025-09-26T12:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16801,
+        "exit_price": 1.1693838369073029,
+        "profit": -98.91625732580599,
+        "profit_pips": -13.738369073028611,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T12:15:00",
+        "exit_time": "2025-09-26T12:45:00",
+        "direction": "SELL",
+        "entry_price": 1.16889,
+        "exit_price": 1.1703652595735206,
+        "profit": -98.84239142587826,
+        "profit_pips": -14.752595735205709,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T12:45:00",
+        "exit_time": "2025-09-28T21:15:00",
+        "direction": "SELL",
+        "entry_price": 1.16909,
+        "exit_price": 1.170748750524111,
+        "profit": -97.86628092255012,
+        "profit_pips": -16.58750524111019,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-29T06:30:00",
+        "exit_time": "2025-09-29T09:45:00",
+        "direction": "BUY",
+        "entry_price": 1.17192,
+        "exit_price": 1.17294,
+        "profit": 80.58000000000166,
+        "profit_pips": 10.200000000000209,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-29T23:00:00",
+        "exit_time": "2025-09-29T23:45:00",
+        "direction": "BUY",
+        "entry_price": 1.1724,
+        "exit_price": 1.1716343549180912,
+        "profit": -97.23692540243101,
+        "profit_pips": -7.656450819089056,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-30T00:00:00",
+        "exit_time": "2025-09-30T02:45:00",
+        "direction": "BUY",
+        "entry_price": 1.17195,
+        "exit_price": 1.172822843045618,
+        "profit": 96.01273501797625,
+        "profit_pips": 8.728430456179659,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-30T11:30:00",
+        "exit_time": "2025-09-30T12:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17314,
+        "exit_price": 1.174529413747539,
+        "profit": 97.2589623277287,
+        "profit_pips": 13.894137475389812,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-02T11:00:00",
+        "exit_time": "2025-10-02T11:30:00",
+        "direction": "BUY",
+        "entry_price": 1.17383,
+        "exit_price": 1.172666535536387,
+        "profit": -97.73101494348602,
+        "profit_pips": -11.634644636129288,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-02T17:15:00",
+        "exit_time": "2025-10-02T18:45:00",
+        "direction": "SELL",
+        "entry_price": 1.17233,
+        "exit_price": 1.171458770612015,
+        "profit": 96.70646206634804,
+        "profit_pips": 8.712293879851174,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-02T22:00:00",
+        "exit_time": "2025-10-02T22:30:00",
+        "direction": "SELL",
+        "entry_price": 1.17238,
+        "exit_price": 1.1718674578709607,
+        "profit": 97.89554664650325,
+        "profit_pips": 5.12542129039284,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-03T16:15:00",
+        "exit_time": "2025-10-03T18:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17339,
+        "exit_price": 1.1743257606903332,
+        "profit": 99.19063317532961,
+        "profit_pips": 9.357606903332982,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-06T00:30:00",
+        "exit_time": "2025-10-06T03:00:00",
+        "direction": "SELL",
+        "entry_price": 1.17272,
+        "exit_price": 1.1718166153653211,
+        "profit": 100.27569444935482,
+        "profit_pips": 9.033846346788721,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-06T11:15:00",
+        "exit_time": "2025-10-06T11:45:00",
+        "direction": "SELL",
+        "entry_price": 1.16883,
+        "exit_price": 1.1700972559545222,
+        "profit": -101.38047636177205,
+        "profit_pips": -12.672559545221507,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-06T12:15:00",
+        "exit_time": "2025-10-06T12:45:00",
+        "direction": "SELL",
+        "entry_price": 1.16982,
+        "exit_price": 1.171169771206264,
+        "profit": -99.88306926353641,
+        "profit_pips": -13.497712062640055,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-06T13:15:00",
+        "exit_time": "2025-10-06T19:00:00",
+        "direction": "SELL",
+        "entry_price": 1.17094,
+        "exit_price": 1.17086,
+        "profit": 5.8400000000058405,
+        "profit_pips": 0.8000000000008001,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-07T13:45:00",
+        "exit_time": "2025-10-07T16:30:00",
+        "direction": "SELL",
+        "entry_price": 1.16733,
+        "exit_price": 1.166148683958416,
+        "profit": 99.23054749304683,
+        "profit_pips": 11.813160415838908,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-08T06:15:00",
+        "exit_time": "2025-10-08T06:45:00",
+        "direction": "SELL",
+        "entry_price": 1.16248,
+        "exit_price": 1.1613518836551149,
+        "profit": 100.40235469477189,
+        "profit_pips": 11.281163448850773,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-08T17:30:00",
+        "exit_time": "2025-10-08T20:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16229,
+        "exit_price": 1.1632240105520841,
+        "profit": -100.87313962508127,
+        "profit_pips": -9.340105520840858,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-08T20:30:00",
+        "exit_time": "2025-10-08T22:30:00",
+        "direction": "SELL",
+        "entry_price": 1.16322,
+        "exit_price": 1.1639955577832535,
+        "profit": -100.04695403970864,
+        "profit_pips": -7.755577832535554,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-08T22:45:00",
+        "exit_time": "2025-10-08T23:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16367,
+        "exit_price": 1.1643913453726025,
+        "profit": -98.82431604654097,
+        "profit_pips": -7.213453726024888,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-08T23:30:00",
+        "exit_time": "2025-10-09T00:45:00",
+        "direction": "SELL",
+        "entry_price": 1.16398,
+        "exit_price": 1.164788458009958,
+        "profit": -97.82341920490346,
+        "profit_pips": -8.084580099578798,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-09T00:45:00",
+        "exit_time": "2025-10-09T03:45:00",
+        "direction": "SELL",
+        "entry_price": 1.16442,
+        "exit_price": 1.16382,
+        "profit": 83.39999999999083,
+        "profit_pips": 5.999999999999339,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-10T03:45:00",
+        "exit_time": "2025-10-10T04:45:00",
+        "direction": "SELL",
+        "entry_price": 1.15696,
+        "exit_price": 1.156213953097817,
+        "profit": 97.7321441859651,
+        "profit_pips": 7.460469021829397,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-10T06:45:00",
+        "exit_time": "2025-10-10T09:15:00",
+        "direction": "SELL",
+        "entry_price": 1.15791,
+        "exit_price": 1.1567571920550168,
+        "profit": 99.14148326855354,
+        "profit_pips": 11.528079449831807,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-13T05:15:00",
+        "exit_time": "2025-10-13T05:45:00",
+        "direction": "BUY",
+        "entry_price": 1.16121,
+        "exit_price": 1.159856655943673,
+        "profit": -100.14746016820864,
+        "profit_pips": -13.533440563271437,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-14T01:00:00",
+        "exit_time": "2025-10-14T01:30:00",
+        "direction": "SELL",
+        "entry_price": 1.15725,
+        "exit_price": 1.1578738063754668,
+        "profit": -99.18521369923461,
+        "profit_pips": -6.238063754668843,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-14T03:00:00",
+        "exit_time": "2025-10-14T03:30:00",
+        "direction": "SELL",
+        "entry_price": 1.15857,
+        "exit_price": 1.1593638909066766,
+        "profit": -97.64858152120647,
+        "profit_pips": -7.938909066764754,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-14T11:45:00",
+        "exit_time": "2025-10-14T12:30:00",
+        "direction": "SELL",
+        "entry_price": 1.1574,
+        "exit_price": 1.1588704255970588,
+        "profit": -97.04808940588006,
+        "profit_pips": -14.704255970587887,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-15T11:15:00",
+        "exit_time": "2025-10-15T13:15:00",
+        "direction": "BUY",
+        "entry_price": 1.16205,
+        "exit_price": 1.1632471602698486,
+        "profit": 95.77282158788947,
+        "profit_pips": 11.971602698486183,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-16T05:30:00",
+        "exit_time": "2025-10-16T05:45:00",
+        "direction": "BUY",
+        "entry_price": 1.16545,
+        "exit_price": 1.1644377761970226,
+        "profit": -97.17348508583966,
+        "profit_pips": -10.122238029774966,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-17T05:30:00",
+        "exit_time": "2025-10-17T06:45:00",
+        "direction": "BUY",
+        "entry_price": 1.17053,
+        "exit_price": 1.1691713566105832,
+        "profit": -96.46368064859456,
+        "profit_pips": -13.586433894168248,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-17T07:00:00",
+        "exit_time": "2025-10-17T09:00:00",
+        "direction": "BUY",
+        "entry_price": 1.17015,
+        "exit_price": 1.1687114883151866,
+        "profit": -94.94177119768833,
+        "profit_pips": -14.385116848134594,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-17T10:45:00",
+        "exit_time": "2025-10-17T12:00:00",
+        "direction": "BUY",
+        "entry_price": 1.16768,
+        "exit_price": 1.1663845104958406,
+        "profit": -94.57073380364167,
+        "profit_pips": -12.95489504159475,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-20T04:00:00",
+        "exit_time": "2025-10-20T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16629,
+        "exit_price": 1.1655916132184843,
+        "profit": 92.88544194160032,
+        "profit_pips": 6.983867815157918,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-20T23:00:00",
+        "exit_time": "2025-10-20T23:30:00",
+        "direction": "SELL",
+        "entry_price": 1.16506,
+        "exit_price": 1.1645139191383336,
+        "profit": 93.92590820662238,
+        "profit_pips": 5.460808616664092,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-21T22:30:00",
+        "exit_time": "2025-10-22T03:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16059,
+        "exit_price": 1.1611004372519005,
+        "profit": -94.94132885348839,
+        "profit_pips": -5.104372519004752,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-22T03:30:00",
+        "exit_time": "2025-10-22T04:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16128,
+        "exit_price": 1.1607872563047734,
+        "profit": 94.1140457882943,
+        "profit_pips": 4.927436952266717,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-22T15:00:00",
+        "exit_time": "2025-10-22T17:45:00",
+        "direction": "SELL",
+        "entry_price": 1.1616,
+        "exit_price": 1.160587402110876,
+        "profit": 95.18420157765607,
+        "profit_pips": 10.125978891240006,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-23T06:30:00",
+        "exit_time": "2025-10-23T08:45:00",
+        "direction": "SELL",
+        "entry_price": 1.1598600000000001,
+        "exit_price": 1.1589294269517705,
+        "profit": 95.84902396765216,
+        "profit_pips": 9.305730482296326,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-23T13:00:00",
+        "exit_time": "2025-10-23T17:00:00",
+        "direction": "SELL",
+        "entry_price": 1.16075,
+        "exit_price": 1.16173688239298,
+        "profit": -96.71447451203497,
+        "profit_pips": -9.868823929799486,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-24T00:00:00",
+        "exit_time": "2025-10-24T02:00:00",
+        "direction": "BUY",
+        "entry_price": 1.16117,
+        "exit_price": 1.1606428579567556,
+        "profit": -95.93985187048881,
+        "profit_pips": -5.27142043244444,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-27T01:45:00",
+        "exit_time": "2025-10-27T03:00:00",
+        "direction": "BUY",
+        "entry_price": 1.16243,
+        "exit_price": 1.1630277737568058,
+        "profit": 95.04602733210588,
+        "profit_pips": 5.977737568056973,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-28T04:30:00",
+        "exit_time": "2025-10-28T04:45:00",
+        "direction": "BUY",
+        "entry_price": 1.16604,
+        "exit_price": 1.1653201999262837,
+        "profit": -95.73340980426838,
+        "profit_pips": -7.198000737163035,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-28T18:15:00",
+        "exit_time": "2025-10-28T21:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1652,
+        "exit_price": 1.1658629881459608,
+        "profit": 94.80730487239074,
+        "profit_pips": 6.629881459607745,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-28T23:45:00",
+        "exit_time": "2025-10-29T00:30:00",
+        "direction": "BUY",
+        "entry_price": 1.16466,
+        "exit_price": 1.1640681842698402,
+        "profit": -95.87414828589935,
+        "profit_pips": -5.918157301598725,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-29T08:00:00",
+        "exit_time": "2025-10-29T08:30:00",
+        "direction": "SELL",
+        "entry_price": 1.16427,
+        "exit_price": 1.163286687078106,
+        "profit": 95.38135342370913,
+        "profit_pips": 9.833129218939085,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-29T21:45:00",
+        "exit_time": "2025-10-29T23:15:00",
+        "direction": "SELL",
+        "entry_price": 1.1612,
+        "exit_price": 1.1619921186536264,
+        "profit": -95.8463570887924,
+        "profit_pips": -7.921186536263836,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-29T23:15:00",
+        "exit_time": "2025-10-30T00:30:00",
+        "direction": "SELL",
+        "entry_price": 1.1615,
+        "exit_price": 1.1607017102954058,
+        "profit": 94.99647484670604,
+        "profit_pips": 7.982897045941684,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-30T01:30:00",
+        "exit_time": "2025-10-30T03:30:00",
+        "direction": "SELL",
+        "entry_price": 1.16296,
+        "exit_price": 1.1618458906787352,
+        "profit": 95.81340162876994,
+        "profit_pips": 11.141093212647668,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-30T22:30:00",
+        "exit_time": "2025-10-30T22:45:00",
+        "direction": "SELL",
+        "entry_price": 1.15732,
+        "exit_price": 1.1567181043536023,
+        "profit": 96.90519907000805,
+        "profit_pips": 6.018956463975655,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-03T01:15:00",
+        "exit_time": "2025-11-03T03:30:00",
+        "direction": "SELL",
+        "entry_price": 1.1535,
+        "exit_price": 1.1540501149160658,
+        "profit": -97.9204550597168,
+        "profit_pips": -5.501149160658247,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-03T03:45:00",
+        "exit_time": "2025-11-03T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.15381,
+        "exit_price": 1.1532894706233339,
+        "profit": 96.81846405990103,
+        "profit_pips": 5.205293766661345,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-03T14:30:00",
+        "exit_time": "2025-11-03T16:00:00",
+        "direction": "SELL",
+        "entry_price": 1.15306,
+        "exit_price": 1.1520167944715693,
+        "profit": 98.06131967247867,
+        "profit_pips": 10.43205528430624,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-04T03:45:00",
+        "exit_time": "2025-11-04T04:30:00",
+        "direction": "SELL",
+        "entry_price": 1.15234,
+        "exit_price": 1.1531334827402826,
+        "profit": -99.18534253533507,
+        "profit_pips": -7.934827402826805,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-04T04:45:00",
+        "exit_time": "2025-11-04T05:45:00",
+        "direction": "SELL",
+        "entry_price": 1.15269,
+        "exit_price": 1.15181422161886,
+        "profit": 98.08717868767403,
+        "profit_pips": 8.757783811399467,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-04T22:45:00",
+        "exit_time": "2025-11-05T03:30:00",
+        "direction": "SELL",
+        "entry_price": 1.14893,
+        "exit_price": 1.14879,
+        "profit": 16.52000000000342,
+        "profit_pips": 1.40000000000029,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-05T17:15:00",
+        "exit_time": "2025-11-05T20:45:00",
+        "direction": "SELL",
+        "entry_price": 1.14894,
+        "exit_price": 1.1496044879978438,
+        "profit": -99.00871167870949,
+        "profit_pips": -6.6448799784368795,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-06T23:00:00",
+        "exit_time": "2025-11-07T00:15:00",
+        "direction": "BUY",
+        "entry_price": 1.1541299999999999,
+        "exit_price": 1.1535039883348732,
+        "profit": -97.65781975975862,
+        "profit_pips": -6.2601166512665785,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-07T03:30:00",
+        "exit_time": "2025-11-07T05:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1532499999999999,
+        "exit_price": 1.153768627608472,
+        "profit": 96.98336278428266,
+        "profit_pips": 5.186276084720998,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-07T17:00:00",
+        "exit_time": "2025-11-09T19:30:00",
+        "direction": "BUY",
+        "entry_price": 1.15642,
+        "exit_price": 1.155449410099853,
+        "profit": -98.02957991485606,
+        "profit_pips": -9.705899001470897,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-09T19:45:00",
+        "exit_time": "2025-11-09T20:00:00",
+        "direction": "BUY",
+        "entry_price": 1.15567,
+        "exit_price": 1.1549631817911394,
+        "profit": -96.83409461389371,
+        "profit_pips": -7.068182088605379,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-09T21:00:00",
+        "exit_time": "2025-11-09T22:45:00",
+        "direction": "BUY",
+        "entry_price": 1.15502,
+        "exit_price": 1.156039897103832,
+        "profit": 95.8703277602071,
+        "profit_pips": 10.198971038319904,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-10T13:00:00",
+        "exit_time": "2025-11-10T14:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1552,
+        "exit_price": 1.1541314254037294,
+        "profit": -97.24028826062758,
+        "profit_pips": -10.685745962706328,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-10T22:30:00",
+        "exit_time": "2025-11-11T01:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1553,
+        "exit_price": 1.1559393731463767,
+        "profit": 95.90597195651141,
+        "profit_pips": 6.393731463767427,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-11T04:15:00",
+        "exit_time": "2025-11-11T05:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1555,
+        "exit_price": 1.1562030886544965,
+        "profit": 97.02623432052128,
+        "profit_pips": 7.030886544965309,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-11T17:00:00",
+        "exit_time": "2025-11-11T18:45:00",
+        "direction": "BUY",
+        "entry_price": 1.1588,
+        "exit_price": 1.1581047836776397,
+        "profit": -98.02550145281063,
+        "profit_pips": -6.952163223603591,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-11T18:45:00",
+        "exit_time": "2025-11-11T20:45:00",
+        "direction": "BUY",
+        "entry_price": 1.15818,
+        "exit_price": 1.158730388762468,
+        "profit": 96.86842219437608,
+        "profit_pips": 5.503887624680459,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-11T22:00:00",
+        "exit_time": "2025-11-11T22:30:00",
+        "direction": "BUY",
+        "entry_price": 1.15808,
+        "exit_price": 1.157568131036454,
+        "profit": -97.76697203727382,
+        "profit_pips": -5.118689635459361,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-11T23:00:00",
+        "exit_time": "2025-11-12T01:15:00",
+        "direction": "BUY",
+        "entry_price": 1.1578,
+        "exit_price": 1.157232501738907,
+        "profit": -97.0422026469091,
+        "profit_pips": -5.674982610930357,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-12T02:00:00",
+        "exit_time": "2025-11-12T03:30:00",
+        "direction": "BUY",
+        "entry_price": 1.1575,
+        "exit_price": 1.158089310594748,
+        "profit": 96.05762694393927,
+        "profit_pips": 5.893105947480937,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-12T10:45:00",
+        "exit_time": "2025-11-12T11:15:00",
+        "direction": "BUY",
+        "entry_price": 1.15724,
+        "exit_price": 1.1563994980015142,
+        "profit": -96.65772982587195,
+        "profit_pips": -8.40501998485843,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-12T22:15:00",
+        "exit_time": "2025-11-12T22:45:00",
+        "direction": "BUY",
+        "entry_price": 1.15821,
+        "exit_price": 1.158807696327745,
+        "profit": 96.22910876694158,
+        "profit_pips": 5.976963277449787,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-13T03:00:00",
+        "exit_time": "2025-11-13T04:00:00",
+        "direction": "BUY",
+        "entry_price": 1.15828,
+        "exit_price": 1.1588280673528681,
+        "profit": 97.00792145766512,
+        "profit_pips": 5.4806735286816455,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-13T20:30:00",
+        "exit_time": "2025-11-13T22:15:00",
+        "direction": "BUY",
+        "entry_price": 1.16281,
+        "exit_price": 1.163590243051303,
+        "profit": 97.53038141288584,
+        "profit_pips": 7.802430513030867,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-14T05:30:00",
+        "exit_time": "2025-11-14T06:45:00",
+        "direction": "BUY",
+        "entry_price": 1.1634,
+        "exit_price": 1.1622201038835624,
+        "profit": -99.11127378075335,
+        "profit_pips": -11.798961164375399,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-14T08:30:00",
+        "exit_time": "2025-11-14T09:00:00",
+        "direction": "BUY",
+        "entry_price": 1.16146,
+        "exit_price": 1.162393814706454,
+        "profit": 98.05054417768578,
+        "profit_pips": 9.338147064541502,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-14T13:00:00",
+        "exit_time": "2025-11-14T17:00:00",
+        "direction": "BUY",
+        "entry_price": 1.16196,
+        "exit_price": 1.16202,
+        "profit": 4.319999999996327,
+        "profit_pips": 0.5999999999994898,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-17T05:00:00",
+        "exit_time": "2025-11-17T05:15:00",
+        "direction": "SELL",
+        "entry_price": 1.1611,
+        "exit_price": 1.1604439450083857,
+        "profit": 99.06430373376884,
+        "profit_pips": 6.560549916143632,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-18T02:00:00",
+        "exit_time": "2025-11-18T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.15966,
+        "exit_price": 1.1603692849570106,
+        "profit": -100.00917893851224,
+        "profit_pips": -7.092849570107251,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-18T10:45:00",
+        "exit_time": "2025-11-18T12:30:00",
+        "direction": "SELL",
+        "entry_price": 1.1597,
+        "exit_price": 1.1607612407378585,
+        "profit": -98.69538862084194,
+        "profit_pips": -10.612407378585154,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-19T03:30:00",
+        "exit_time": "2025-11-19T04:00:00",
+        "direction": "SELL",
+        "entry_price": 1.15887,
+        "exit_price": 1.158341778220966,
+        "profit": 97.72102912131042,
+        "profit_pips": 5.282217790341104,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-19T04:45:00",
+        "exit_time": "2025-11-19T05:45:00",
+        "direction": "SELL",
+        "entry_price": 1.15812,
+        "exit_price": 1.1571040709675682,
+        "profit": 98.54511614589057,
+        "profit_pips": 10.159290324318615,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-20T11:45:00",
+        "exit_time": "2025-11-20T14:45:00",
+        "direction": "SELL",
+        "entry_price": 1.1535,
+        "exit_price": 1.15289,
+        "profit": 37.819999999999965,
+        "profit_pips": 6.099999999999994,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-21T01:30:00",
+        "exit_time": "2025-11-21T03:15:00",
+        "direction": "SELL",
+        "entry_price": 1.15391,
+        "exit_price": 1.1544573608892343,
+        "profit": -100.16704272988598,
+        "profit_pips": -5.473608892343496,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-21T03:30:00",
+        "exit_time": "2025-11-21T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.15414,
+        "exit_price": 1.1534400530975828,
+        "profit": 99.39246014323498,
+        "profit_pips": 6.9994690241714785,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-24T00:00:00",
+        "exit_time": "2025-11-24T01:45:00",
+        "direction": "SELL",
+        "entry_price": 1.15154,
+        "exit_price": 1.1521176822157504,
+        "profit": -100.51670554056713,
+        "profit_pips": -5.776822157503858,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-24T02:45:00",
+        "exit_time": "2025-11-24T04:00:00",
+        "direction": "SELL",
+        "entry_price": 1.15221,
+        "exit_price": 1.1516392044678196,
+        "profit": 99.3184225993744,
+        "profit_pips": 5.7079553218031265,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-24T05:00:00",
+        "exit_time": "2025-11-24T07:00:00",
+        "direction": "BUY",
+        "entry_price": 1.1526399999999999,
+        "exit_price": 1.1536977528237797,
+        "profit": 100.48651825908527,
+        "profit_pips": 10.57752823779845,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-24T22:45:00",
+        "exit_time": "2025-11-25T00:45:00",
+        "direction": "SELL",
+        "entry_price": 1.15253,
+        "exit_price": 1.1519804167992216,
+        "profit": 101.1233089432384,
+        "profit_pips": 5.495832007784696,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-25T04:45:00",
+        "exit_time": "2025-11-25T05:30:00",
+        "direction": "SELL",
+        "entry_price": 1.15224,
+        "exit_price": 1.1529994893280078,
+        "profit": -102.5310592810591,
+        "profit_pips": -7.594893280078452,
+        "exit_reason": "SL"
+      }
+    ]
+  },
+  {
+    "symbol": "GBPUSD",
+    "phase": "Challenge",
+    "start_date": "2025-08-27T19:07:49.231247",
+    "end_date": "2025-11-25T19:07:49.231247",
+    "initial_balance": 10000.0,
+    "final_balance": 10044.998342433344,
+    "net_profit": 44.99834243334408,
+    "total_trades": 108,
+    "winning_trades": 62,
+    "losing_trades": 46,
+    "win_rate": 57.407407407407405,
+    "profit_factor": 1.0097755343878378,
+    "max_drawdown": 689.6058651899657,
+    "max_drawdown_pct": 6.896058651899657,
+    "max_consecutive_losses": 6,
+    "average_win": 74.97028522110867,
+    "average_loss": 100.06868133207398,
+    "expectancy": 0.41665131882726,
+    "trades": [
+      {
+        "entry_time": "2025-09-01T19:15:00",
+        "exit_time": "2025-09-01T20:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35403,
+        "exit_price": 1.3546584576078378,
+        "profit": 99.92475964619364,
+        "profit_pips": 6.284576078376958,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-01T22:45:00",
+        "exit_time": "2025-09-02T00:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35368,
+        "exit_price": 1.3530373196687666,
+        "profit": -100.90081200364075,
+        "profit_pips": -6.426803312333806,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-02T00:30:00",
+        "exit_time": "2025-09-02T03:15:00",
+        "direction": "BUY",
+        "entry_price": 1.35291,
+        "exit_price": 1.3520951076933299,
+        "profit": -100.2317537204347,
+        "profit_pips": -8.148923066702007,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-03T04:45:00",
+        "exit_time": "2025-09-03T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.33758,
+        "exit_price": 1.3364058315403287,
+        "profit": 98.63015061239189,
+        "profit_pips": 11.74168459671332,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-03T07:45:00",
+        "exit_time": "2025-09-03T10:45:00",
+        "direction": "SELL",
+        "entry_price": 1.3407,
+        "exit_price": 1.3426471731124427,
+        "profit": -99.30582873458006,
+        "profit_pips": -19.47173112442746,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-03T11:30:00",
+        "exit_time": "2025-09-03T12:00:00",
+        "direction": "SELL",
+        "entry_price": 1.3418700000000001,
+        "exit_price": 1.343693184594476,
+        "profit": -98.4519681016951,
+        "profit_pips": -18.23184594475835,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-04T00:15:00",
+        "exit_time": "2025-09-04T02:30:00",
+        "direction": "BUY",
+        "entry_price": 1.34333,
+        "exit_price": 1.3424957436679847,
+        "profit": -97.60799084577499,
+        "profit_pips": -8.342563320151708,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-04T05:00:00",
+        "exit_time": "2025-09-04T05:15:00",
+        "direction": "SELL",
+        "entry_price": 1.3431600000000001,
+        "exit_price": 1.3423024884173174,
+        "profit": 96.89880884315284,
+        "profit_pips": 8.575115826827684,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-05T10:00:00",
+        "exit_time": "2025-09-05T10:30:00",
+        "direction": "BUY",
+        "entry_price": 1.34813,
+        "exit_price": 1.3496097829147875,
+        "profit": 97.6656723759719,
+        "profit_pips": 14.79782914787453,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-05T18:00:00",
+        "exit_time": "2025-09-07T20:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35052,
+        "exit_price": 1.3494968289470033,
+        "profit": -99.24759214067524,
+        "profit_pips": -10.23171052996652,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-07T21:15:00",
+        "exit_time": "2025-09-07T23:00:00",
+        "direction": "BUY",
+        "entry_price": 1.349,
+        "exit_price": 1.3499613712992464,
+        "profit": 98.05987252313787,
+        "profit_pips": 9.613712992464496,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-08T02:15:00",
+        "exit_time": "2025-09-08T03:30:00",
+        "direction": "BUY",
+        "entry_price": 1.34947,
+        "exit_price": 1.350387373040621,
+        "profit": 99.0762883870806,
+        "profit_pips": 9.173730406211167,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-09T11:00:00",
+        "exit_time": "2025-09-09T12:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35575,
+        "exit_price": 1.35457659997806,
+        "profit": -99.73900186490914,
+        "profit_pips": -11.734000219401075,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-09T12:15:00",
+        "exit_time": "2025-09-09T13:15:00",
+        "direction": "BUY",
+        "entry_price": 1.35476,
+        "exit_price": 1.3527997115597088,
+        "profit": -98.01442201455845,
+        "profit_pips": -19.60288440291169,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-09T14:15:00",
+        "exit_time": "2025-09-09T17:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35366,
+        "exit_price": 1.3519668258021054,
+        "profit": -98.20410347789377,
+        "profit_pips": -16.9317419789472,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-10T15:45:00",
+        "exit_time": "2025-09-10T17:30:00",
+        "direction": "BUY",
+        "entry_price": 1.35342,
+        "exit_price": 1.352292318143288,
+        "profit": -96.98063967723901,
+        "profit_pips": -11.276818567120817,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-12T00:00:00",
+        "exit_time": "2025-09-12T02:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35609,
+        "exit_price": 1.3552938107505195,
+        "profit": -96.33889918714654,
+        "profit_pips": -7.9618924948055,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-12T02:15:00",
+        "exit_time": "2025-09-12T04:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35555,
+        "exit_price": 1.3549677076922506,
+        "profit": -94.91364616315568,
+        "profit_pips": -5.822923077494213,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-12T04:30:00",
+        "exit_time": "2025-09-12T05:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35514,
+        "exit_price": 1.3559842323358997,
+        "profit": 93.7097892848664,
+        "profit_pips": 8.442323358996973,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-14T19:30:00",
+        "exit_time": "2025-09-14T23:45:00",
+        "direction": "BUY",
+        "entry_price": 1.3557299999999999,
+        "exit_price": 1.3559,
+        "profit": 12.070000000016012,
+        "profit_pips": 1.7000000000022553,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-15T04:30:00",
+        "exit_time": "2025-09-15T05:00:00",
+        "direction": "BUY",
+        "entry_price": 1.35583,
+        "exit_price": 1.356545107197208,
+        "profit": 95.1092572286667,
+        "profit_pips": 7.151071972080203,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-15T12:15:00",
+        "exit_time": "2025-09-15T13:45:00",
+        "direction": "BUY",
+        "entry_price": 1.35933,
+        "exit_price": 1.360651684249083,
+        "profit": 96.48295018306463,
+        "profit_pips": 13.216842490830771,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-15T19:15:00",
+        "exit_time": "2025-09-15T22:15:00",
+        "direction": "BUY",
+        "entry_price": 1.3599700000000001,
+        "exit_price": 1.36009,
+        "profit": 14.75999999998745,
+        "profit_pips": 1.1999999999989797,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-16T19:00:00",
+        "exit_time": "2025-09-16T21:45:00",
+        "direction": "BUY",
+        "entry_price": 1.3645100000000001,
+        "exit_price": 1.3654766423223503,
+        "profit": 97.63087455737218,
+        "profit_pips": 9.666423223502196,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-16T23:45:00",
+        "exit_time": "2025-09-17T03:00:00",
+        "direction": "BUY",
+        "entry_price": 1.3643100000000001,
+        "exit_price": 1.3645399999999999,
+        "profit": 30.81999999996388,
+        "profit_pips": 2.299999999997304,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-22T04:45:00",
+        "exit_time": "2025-09-22T06:00:00",
+        "direction": "SELL",
+        "entry_price": 1.34745,
+        "exit_price": 1.3484614854354218,
+        "profit": -98.11408723590809,
+        "profit_pips": -10.114854354217329,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-22T07:15:00",
+        "exit_time": "2025-09-22T07:45:00",
+        "direction": "SELL",
+        "entry_price": 1.34921,
+        "exit_price": 1.3504427092599667,
+        "profit": -97.38403153736597,
+        "profit_pips": -12.327092599666578,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-22T08:00:00",
+        "exit_time": "2025-09-22T10:45:00",
+        "direction": "SELL",
+        "entry_price": 1.34997,
+        "exit_price": 1.351180341405673,
+        "profit": -96.82731245383991,
+        "profit_pips": -12.103414056729989,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-24T23:00:00",
+        "exit_time": "2025-09-25T00:30:00",
+        "direction": "SELL",
+        "entry_price": 1.3453300000000001,
+        "exit_price": 1.346009836434464,
+        "profit": -95.85693725939403,
+        "profit_pips": -6.798364344637875,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-25T00:45:00",
+        "exit_time": "2025-09-25T03:45:00",
+        "direction": "SELL",
+        "entry_price": 1.34584,
+        "exit_price": 1.34544,
+        "profit": 56.39999999999379,
+        "profit_pips": 3.9999999999995595,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-25T05:00:00",
+        "exit_time": "2025-09-25T05:45:00",
+        "direction": "SELL",
+        "entry_price": 1.34577,
+        "exit_price": 1.3448577782995756,
+        "profit": 94.87105684412356,
+        "profit_pips": 9.12221700424265,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-26T00:45:00",
+        "exit_time": "2025-09-26T04:00:00",
+        "direction": "SELL",
+        "entry_price": 1.33498,
+        "exit_price": 1.3357719243898463,
+        "profit": -95.82285117139143,
+        "profit_pips": -7.919243898462103,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T05:00:00",
+        "exit_time": "2025-09-26T05:15:00",
+        "direction": "SELL",
+        "entry_price": 1.3356,
+        "exit_price": 1.3345705088224082,
+        "profit": 94.71318833843246,
+        "profit_pips": 10.294911775916571,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-26T11:15:00",
+        "exit_time": "2025-09-26T12:00:00",
+        "direction": "SELL",
+        "entry_price": 1.3377,
+        "exit_price": 1.3391923893552182,
+        "profit": -95.5129187339736,
+        "profit_pips": -14.923893552183376,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T13:00:00",
+        "exit_time": "2025-09-26T13:30:00",
+        "direction": "SELL",
+        "entry_price": 1.33949,
+        "exit_price": 1.341085862209004,
+        "profit": -95.75173254023905,
+        "profit_pips": -15.958622090039842,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-28T19:30:00",
+        "exit_time": "2025-09-28T21:30:00",
+        "direction": "BUY",
+        "entry_price": 1.33999,
+        "exit_price": 1.3411110419921042,
+        "profit": 94.16752733674994,
+        "profit_pips": 11.210419921041659,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-29T09:30:00",
+        "exit_time": "2025-09-29T09:45:00",
+        "direction": "BUY",
+        "entry_price": 1.34348,
+        "exit_price": 1.3444994545383269,
+        "profit": 94.80927206439783,
+        "profit_pips": 10.194545383268583,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-29T12:30:00",
+        "exit_time": "2025-09-29T16:00:00",
+        "direction": "BUY",
+        "entry_price": 1.34266,
+        "exit_price": 1.3428499999999999,
+        "profit": 12.539999999994222,
+        "profit_pips": 1.8999999999991246,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-29T19:30:00",
+        "exit_time": "2025-09-29T21:00:00",
+        "direction": "BUY",
+        "entry_price": 1.34267,
+        "exit_price": 1.3434756296151429,
+        "profit": 95.8699242019998,
+        "profit_pips": 8.056296151428555,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-29T23:00:00",
+        "exit_time": "2025-09-29T23:45:00",
+        "direction": "BUY",
+        "entry_price": 1.3431899999999999,
+        "exit_price": 1.3424206665570408,
+        "profit": -96.93601381283924,
+        "profit_pips": -7.693334429590415,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-30T09:15:00",
+        "exit_time": "2025-09-30T10:00:00",
+        "direction": "BUY",
+        "entry_price": 1.3431199999999999,
+        "exit_price": 1.3444459346634507,
+        "profit": 96.79323043191413,
+        "profit_pips": 13.259346634508784,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-30T11:30:00",
+        "exit_time": "2025-09-30T12:30:00",
+        "direction": "BUY",
+        "entry_price": 1.34374,
+        "exit_price": 1.3455625568652478,
+        "profit": 96.59551385813891,
+        "profit_pips": 18.22556865247904,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-30T18:45:00",
+        "exit_time": "2025-10-01T02:00:00",
+        "direction": "BUY",
+        "entry_price": 1.3443800000000001,
+        "exit_price": 1.34445,
+        "profit": 7.0699999999790375,
+        "profit_pips": 0.6999999999979245,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-01T23:00:00",
+        "exit_time": "2025-10-01T23:15:00",
+        "direction": "BUY",
+        "entry_price": 1.34738,
+        "exit_price": 1.3481126467980875,
+        "profit": 98.17467094372344,
+        "profit_pips": 7.3264679808748845,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-02T03:15:00",
+        "exit_time": "2025-10-02T04:00:00",
+        "direction": "BUY",
+        "entry_price": 1.3473,
+        "exit_price": 1.3479715957047922,
+        "profit": 99.39616430925291,
+        "profit_pips": 6.715957047922494,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-02T09:30:00",
+        "exit_time": "2025-10-02T10:45:00",
+        "direction": "BUY",
+        "entry_price": 1.34782,
+        "exit_price": 1.3466086845818412,
+        "profit": -100.53917970717842,
+        "profit_pips": -12.11315418158776,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-06T00:30:00",
+        "exit_time": "2025-10-06T03:00:00",
+        "direction": "SELL",
+        "entry_price": 1.34531,
+        "exit_price": 1.3443437004297119,
+        "profit": 99.52885573967984,
+        "profit_pips": 9.662995702881538,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-06T05:30:00",
+        "exit_time": "2025-10-06T06:15:00",
+        "direction": "SELL",
+        "entry_price": 1.34374,
+        "exit_price": 1.341959843464293,
+        "profit": 99.68876599958955,
+        "profit_pips": 17.80156535706956,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-07T13:45:00",
+        "exit_time": "2025-10-07T16:45:00",
+        "direction": "SELL",
+        "entry_price": 1.34398,
+        "exit_price": 1.34299,
+        "profit": 65.34000000000306,
+        "profit_pips": 9.900000000000464,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-08T06:30:00",
+        "exit_time": "2025-10-08T07:45:00",
+        "direction": "SELL",
+        "entry_price": 1.3416000000000001,
+        "exit_price": 1.3402645141089546,
+        "profit": 101.49692771945685,
+        "profit_pips": 13.354858910454848,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-08T08:45:00",
+        "exit_time": "2025-10-08T11:15:00",
+        "direction": "SELL",
+        "entry_price": 1.34122,
+        "exit_price": 1.342696989442181,
+        "profit": -103.38926095266211,
+        "profit_pips": -14.769894421808871,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-08T12:45:00",
+        "exit_time": "2025-10-08T13:15:00",
+        "direction": "SELL",
+        "entry_price": 1.34209,
+        "exit_price": 1.3406061204487665,
+        "profit": 102.38768903511321,
+        "profit_pips": 14.838795512335246,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-08T18:15:00",
+        "exit_time": "2025-10-08T20:45:00",
+        "direction": "SELL",
+        "entry_price": 1.33974,
+        "exit_price": 1.3406758115961768,
+        "profit": -102.93927557945227,
+        "profit_pips": -9.358115961768387,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-08T22:45:00",
+        "exit_time": "2025-10-08T23:00:00",
+        "direction": "SELL",
+        "entry_price": 1.34098,
+        "exit_price": 1.3416713607894868,
+        "profit": -101.63003605454902,
+        "profit_pips": -6.91360789486728,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-08T23:30:00",
+        "exit_time": "2025-10-09T02:30:00",
+        "direction": "SELL",
+        "entry_price": 1.34108,
+        "exit_price": 1.34097,
+        "profit": 13.310000000006594,
+        "profit_pips": 1.100000000000545,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-09T08:15:00",
+        "exit_time": "2025-10-09T09:00:00",
+        "direction": "SELL",
+        "entry_price": 1.3384,
+        "exit_price": 1.3368780791112136,
+        "profit": 100.44677865990525,
+        "profit_pips": 15.219208887864433,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-10T02:00:00",
+        "exit_time": "2025-10-10T03:15:00",
+        "direction": "SELL",
+        "entry_price": 1.3306200000000001,
+        "exit_price": 1.331336967598183,
+        "profit": -101.8093989419646,
+        "profit_pips": -7.169675981828494,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-10T13:30:00",
+        "exit_time": "2025-10-12T19:15:00",
+        "direction": "SELL",
+        "entry_price": 1.33357,
+        "exit_price": 1.33294,
+        "profit": 21.419999999996886,
+        "profit_pips": 6.299999999999084,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-12T19:30:00",
+        "exit_time": "2025-10-12T22:30:00",
+        "direction": "BUY",
+        "entry_price": 1.33449,
+        "exit_price": 1.33477,
+        "profit": 15.40000000000319,
+        "profit_pips": 2.80000000000058,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-14T13:00:00",
+        "exit_time": "2025-10-14T13:45:00",
+        "direction": "SELL",
+        "entry_price": 1.32938,
+        "exit_price": 1.331195534113844,
+        "profit": -101.66991037526074,
+        "profit_pips": -18.155341138439418,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-14T14:00:00",
+        "exit_time": "2025-10-14T15:45:00",
+        "direction": "SELL",
+        "entry_price": 1.33098,
+        "exit_price": 1.3329600651817382,
+        "profit": -100.98332426864309,
+        "profit_pips": -19.800651817381,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-15T11:30:00",
+        "exit_time": "2025-10-15T12:15:00",
+        "direction": "BUY",
+        "entry_price": 1.33483,
+        "exit_price": 1.3363036597336795,
+        "profit": 98.73520215652799,
+        "profit_pips": 14.73659733679522,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-17T06:30:00",
+        "exit_time": "2025-10-17T09:30:00",
+        "direction": "BUY",
+        "entry_price": 1.3425799999999999,
+        "exit_price": 1.3434599999999999,
+        "profit": 46.639999999999574,
+        "profit_pips": 8.799999999999919,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-17T11:15:00",
+        "exit_time": "2025-10-17T11:45:00",
+        "direction": "BUY",
+        "entry_price": 1.3418700000000001,
+        "exit_price": 1.340484922331854,
+        "profit": -101.11066977466577,
+        "profit_pips": -13.850776681461063,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-20T04:30:00",
+        "exit_time": "2025-10-20T04:45:00",
+        "direction": "BUY",
+        "entry_price": 1.34262,
+        "exit_price": 1.3417273999400412,
+        "profit": -99.97120671537729,
+        "profit_pips": -8.926000599587258,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-20T23:00:00",
+        "exit_time": "2025-10-20T23:30:00",
+        "direction": "SELL",
+        "entry_price": 1.34087,
+        "exit_price": 1.340290208683679,
+        "profit": 98.56452377457359,
+        "profit_pips": 5.797913163210211,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-22T00:15:00",
+        "exit_time": "2025-10-22T03:00:00",
+        "direction": "SELL",
+        "entry_price": 1.33741,
+        "exit_price": 1.3381883649501078,
+        "profit": -99.63071361380571,
+        "profit_pips": -7.783649501078571,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-22T03:45:00",
+        "exit_time": "2025-10-22T04:00:00",
+        "direction": "SELL",
+        "entry_price": 1.33832,
+        "exit_price": 1.3377006923215182,
+        "profit": 98.46992087859486,
+        "profit_pips": 6.193076784817286,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-22T15:00:00",
+        "exit_time": "2025-10-22T18:00:00",
+        "direction": "SELL",
+        "entry_price": 1.33662,
+        "exit_price": 1.33598,
+        "profit": 44.159999999998206,
+        "profit_pips": 6.399999999999739,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-23T04:30:00",
+        "exit_time": "2025-10-23T08:30:00",
+        "direction": "SELL",
+        "entry_price": 1.33479,
+        "exit_price": 1.33439,
+        "profit": 43.5999999999952,
+        "profit_pips": 3.9999999999995595,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-23T22:45:00",
+        "exit_time": "2025-10-23T23:15:00",
+        "direction": "SELL",
+        "entry_price": 1.3329900000000001,
+        "exit_price": 1.332515235655203,
+        "profit": 100.6500410969844,
+        "profit_pips": 4.747643447970962,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-24T18:15:00",
+        "exit_time": "2025-10-26T19:00:00",
+        "direction": "SELL",
+        "entry_price": 1.33132,
+        "exit_price": 1.3321203441132197,
+        "profit": -101.64370237889031,
+        "profit_pips": -8.003441132196087,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-26T20:00:00",
+        "exit_time": "2025-10-26T22:00:00",
+        "direction": "SELL",
+        "entry_price": 1.332,
+        "exit_price": 1.332969693179401,
+        "profit": -100.84809065770273,
+        "profit_pips": -9.696931794009878,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-27T03:45:00",
+        "exit_time": "2025-10-27T04:15:00",
+        "direction": "SELL",
+        "entry_price": 1.33237,
+        "exit_price": 1.3315113880150233,
+        "profit": 99.59899025729955,
+        "profit_pips": 8.586119849767204,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-29T13:30:00",
+        "exit_time": "2025-10-29T14:30:00",
+        "direction": "SELL",
+        "entry_price": 1.3232300000000001,
+        "exit_price": 1.321810664847795,
+        "profit": 100.77279580656628,
+        "profit_pips": 14.19335152205159,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-29T23:15:00",
+        "exit_time": "2025-10-30T01:15:00",
+        "direction": "SELL",
+        "entry_price": 1.32047,
+        "exit_price": 1.3214481014155972,
+        "profit": -101.72254722210639,
+        "profit_pips": -9.781014155971768,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-30T21:00:00",
+        "exit_time": "2025-10-30T23:30:00",
+        "direction": "SELL",
+        "entry_price": 1.31579,
+        "exit_price": 1.31507477316853,
+        "profit": 100.84698323728024,
+        "profit_pips": 7.152268314700727,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-31T13:00:00",
+        "exit_time": "2025-11-02T19:00:00",
+        "direction": "SELL",
+        "entry_price": 1.31329,
+        "exit_price": 1.31308,
+        "profit": 11.97000000000248,
+        "profit_pips": 2.100000000000435,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-02T19:00:00",
+        "exit_time": "2025-11-03T01:00:00",
+        "direction": "SELL",
+        "entry_price": 1.31308,
+        "exit_price": 1.3143686999405346,
+        "profit": -101.80729530223331,
+        "profit_pips": -12.886999405345989,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-03T01:15:00",
+        "exit_time": "2025-11-03T04:45:00",
+        "direction": "SELL",
+        "entry_price": 1.3143500000000001,
+        "exit_price": 1.3137510348031842,
+        "profit": 100.62615306507183,
+        "profit_pips": 5.989651968159038,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-03T14:30:00",
+        "exit_time": "2025-11-03T17:30:00",
+        "direction": "SELL",
+        "entry_price": 1.31446,
+        "exit_price": 1.31387,
+        "profit": 41.299999999990796,
+        "profit_pips": 5.899999999998684,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-04T04:30:00",
+        "exit_time": "2025-11-04T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.31262,
+        "exit_price": 1.3114338480574403,
+        "profit": 102.0090670601217,
+        "profit_pips": 11.861519425595546,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-05T01:45:00",
+        "exit_time": "2025-11-05T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.30257,
+        "exit_price": 1.3032802644189756,
+        "profit": -102.9883407514609,
+        "profit_pips": -7.1026441897559245,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-05T05:15:00",
+        "exit_time": "2025-11-05T05:45:00",
+        "direction": "SELL",
+        "entry_price": 1.3036400000000001,
+        "exit_price": 1.3047878221933789,
+        "profit": -102.15617521070631,
+        "profit_pips": -11.478221933787225,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-05T06:15:00",
+        "exit_time": "2025-11-05T07:00:00",
+        "direction": "SELL",
+        "entry_price": 1.30406,
+        "exit_price": 1.302776634673282,
+        "profit": 101.385860810715,
+        "profit_pips": 12.833653267179113,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-05T18:45:00",
+        "exit_time": "2025-11-05T21:45:00",
+        "direction": "SELL",
+        "entry_price": 1.30503,
+        "exit_price": 1.305648724198973,
+        "profit": -102.08949283054825,
+        "profit_pips": -6.187241989730197,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-07T01:45:00",
+        "exit_time": "2025-11-07T04:45:00",
+        "direction": "BUY",
+        "entry_price": 1.31172,
+        "exit_price": 1.3122685912756722,
+        "profit": 100.94079472368378,
+        "profit_pips": 5.485912756721945,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-07T06:00:00",
+        "exit_time": "2025-11-07T08:15:00",
+        "direction": "BUY",
+        "entry_price": 1.31037,
+        "exit_price": 1.3114194824057273,
+        "profit": 101.79979335554033,
+        "profit_pips": 10.4948240572722,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-09T21:15:00",
+        "exit_time": "2025-11-10T00:15:00",
+        "direction": "BUY",
+        "entry_price": 1.3144,
+        "exit_price": 1.31454,
+        "profit": 11.06000000000229,
+        "profit_pips": 1.40000000000029,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-10T04:00:00",
+        "exit_time": "2025-11-10T04:30:00",
+        "direction": "BUY",
+        "entry_price": 1.3151,
+        "exit_price": 1.3161676956250274,
+        "profit": 103.56647562766841,
+        "profit_pips": 10.676956250275094,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-10T11:45:00",
+        "exit_time": "2025-11-10T12:45:00",
+        "direction": "BUY",
+        "entry_price": 1.31663,
+        "exit_price": 1.3151243293566768,
+        "profit": -103.89127438929991,
+        "profit_pips": -15.05670643323187,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-10T13:00:00",
+        "exit_time": "2025-11-10T14:30:00",
+        "direction": "BUY",
+        "entry_price": 1.3158,
+        "exit_price": 1.3172901591047526,
+        "profit": 102.82097822792082,
+        "profit_pips": 14.901591047524754,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-10T19:30:00",
+        "exit_time": "2025-11-10T21:30:00",
+        "direction": "BUY",
+        "entry_price": 1.31753,
+        "exit_price": 1.316833711123924,
+        "profit": -104.44333141143015,
+        "profit_pips": -6.962888760762009,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-10T22:45:00",
+        "exit_time": "2025-11-11T01:45:00",
+        "direction": "BUY",
+        "entry_price": 1.3165,
+        "exit_price": 1.31658,
+        "profit": 11.600000000011601,
+        "profit_pips": 0.8000000000008001,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-12T04:30:00",
+        "exit_time": "2025-11-12T05:00:00",
+        "direction": "SELL",
+        "entry_price": 1.3143,
+        "exit_price": 1.3152024220422658,
+        "profit": -102.87611281829669,
+        "profit_pips": -9.024220422657603,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-12T05:30:00",
+        "exit_time": "2025-11-12T05:45:00",
+        "direction": "SELL",
+        "entry_price": 1.31497,
+        "exit_price": 1.3139788131170538,
+        "profit": 102.09224894345793,
+        "profit_pips": 9.911868829461934,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-12T13:15:00",
+        "exit_time": "2025-11-12T16:45:00",
+        "direction": "SELL",
+        "entry_price": 1.31298,
+        "exit_price": 1.31295,
+        "profit": 2.0999999999982144,
+        "profit_pips": 0.2999999999997449,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-13T21:15:00",
+        "exit_time": "2025-11-13T21:30:00",
+        "direction": "BUY",
+        "entry_price": 1.3158699999999999,
+        "exit_price": 1.3143607209646184,
+        "profit": -102.63097440593862,
+        "profit_pips": -15.0927903538145,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-19T04:00:00",
+        "exit_time": "2025-11-19T05:30:00",
+        "direction": "SELL",
+        "entry_price": 1.3144,
+        "exit_price": 1.313313300585208,
+        "profit": 102.14974499044827,
+        "profit_pips": 10.866994147920028,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-20T05:00:00",
+        "exit_time": "2025-11-20T06:30:00",
+        "direction": "SELL",
+        "entry_price": 1.3060399999999999,
+        "exit_price": 1.3072491075880837,
+        "profit": -102.77414498712223,
+        "profit_pips": -12.09107588083791,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-20T07:45:00",
+        "exit_time": "2025-11-20T09:00:00",
+        "direction": "SELL",
+        "entry_price": 1.30727,
+        "exit_price": 1.3061310652983695,
+        "profit": 102.50412314673608,
+        "profit_pips": 11.389347016304008,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-20T11:00:00",
+        "exit_time": "2025-11-20T11:30:00",
+        "direction": "SELL",
+        "entry_price": 1.3087,
+        "exit_price": 1.310999054539657,
+        "profit": -103.45745428456787,
+        "profit_pips": -22.99054539657064,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-20T21:00:00",
+        "exit_time": "2025-11-21T00:00:00",
+        "direction": "SELL",
+        "entry_price": 1.30803,
+        "exit_price": 1.30801,
+        "profit": 2.2000000000144126,
+        "profit_pips": 0.20000000000131024,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-21T01:15:00",
+        "exit_time": "2025-11-21T03:00:00",
+        "direction": "SELL",
+        "entry_price": 1.3088899999999999,
+        "exit_price": 1.309661125333712,
+        "profit": -102.55966938371631,
+        "profit_pips": -7.711253337121526,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-21T05:00:00",
+        "exit_time": "2025-11-21T06:30:00",
+        "direction": "BUY",
+        "entry_price": 1.30903,
+        "exit_price": 1.3076006690119033,
+        "profit": -101.48250015485937,
+        "profit_pips": -14.29330988096611,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-21T10:00:00",
+        "exit_time": "2025-11-21T13:00:00",
+        "direction": "SELL",
+        "entry_price": 1.30829,
+        "exit_price": 1.30779,
+        "profit": 25.499999999997193,
+        "profit_pips": 4.999999999999449,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-24T05:00:00",
+        "exit_time": "2025-11-24T05:30:00",
+        "direction": "BUY",
+        "entry_price": 1.3106499999999999,
+        "exit_price": 1.3094455094406467,
+        "profit": -99.97271642630912,
+        "profit_pips": -12.044905593531219,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-25T01:30:00",
+        "exit_time": "2025-11-25T03:30:00",
+        "direction": "BUY",
+        "entry_price": 1.30988,
+        "exit_price": 1.310541573316168,
+        "profit": 99.2359974252177,
+        "profit_pips": 6.615733161681181,
+        "exit_reason": "TP"
+      }
+    ]
+  },
+  {
+    "symbol": "USDJPY",
+    "phase": "Challenge",
+    "start_date": "2025-08-27T19:07:49.231247",
+    "end_date": "2025-11-25T19:07:49.231247",
+    "initial_balance": 10000.0,
+    "final_balance": 9085.05548451704,
+    "net_profit": -914.9445154829591,
+    "total_trades": 102,
+    "winning_trades": 50,
+    "losing_trades": 52,
+    "win_rate": 49.01960784313725,
+    "profit_factor": 0.8151159814799651,
+    "max_drawdown": 958.9953769610638,
+    "max_drawdown_pct": 9.58995376961064,
+    "max_consecutive_losses": 5,
+    "average_win": 80.67608035648469,
+    "average_loss": 95.16824102513843,
+    "expectancy": -8.970044269440775,
+    "trades": [
+      {
+        "entry_time": "2025-09-01T17:45:00",
+        "exit_time": "2025-09-01T18:30:00",
+        "direction": "BUY",
+        "entry_price": 147.176,
+        "exit_price": 147.13640161514988,
+        "profit": -99.89092395666066,
+        "profit_pips": -3.9598384850108914,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-01T18:45:00",
+        "exit_time": "2025-09-01T19:00:00",
+        "direction": "BUY",
+        "entry_price": 147.168,
+        "exit_price": 147.12760018825276,
+        "profit": -99.06732847079572,
+        "profit_pips": -4.039981174724971,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-01T19:30:00",
+        "exit_time": "2025-09-01T21:15:00",
+        "direction": "BUY",
+        "entry_price": 147.176,
+        "exit_price": 147.09287899661965,
+        "profit": -97.92214908944892,
+        "profit_pips": -8.312100338034156,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-02T13:00:00",
+        "exit_time": "2025-09-02T16:00:00",
+        "direction": "BUY",
+        "entry_price": 148.209,
+        "exit_price": 148.394,
+        "profit": 66.3303198709256,
+        "profit_pips": 18.500000000000227,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-03T03:00:00",
+        "exit_time": "2025-09-03T03:15:00",
+        "direction": "BUY",
+        "entry_price": 148.635,
+        "exit_price": 148.49297310988922,
+        "profit": -97.29862244124027,
+        "profit_pips": -14.202689011077041,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-03T03:30:00",
+        "exit_time": "2025-09-03T05:15:00",
+        "direction": "BUY",
+        "entry_price": 148.623,
+        "exit_price": 148.7794646419054,
+        "profit": 97.17180746808538,
+        "profit_pips": 15.646464190541565,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-04T17:45:00",
+        "exit_time": "2025-09-04T19:15:00",
+        "direction": "BUY",
+        "entry_price": 148.487,
+        "exit_price": 148.40179789774825,
+        "profit": -97.64627438127009,
+        "profit_pips": -8.520210225174196,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-04T19:30:00",
+        "exit_time": "2025-09-04T20:45:00",
+        "direction": "BUY",
+        "entry_price": 148.413,
+        "exit_price": 148.5096587035893,
+        "profit": 96.54235767107953,
+        "profit_pips": 9.665870358929851,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-04T21:45:00",
+        "exit_time": "2025-09-04T22:00:00",
+        "direction": "BUY",
+        "entry_price": 148.422,
+        "exit_price": 148.3181704777284,
+        "profit": -97.72159048023337,
+        "profit_pips": -10.382952227161013,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-07T19:45:00",
+        "exit_time": "2025-09-07T20:00:00",
+        "direction": "SELL",
+        "entry_price": 147.94,
+        "exit_price": 148.18141765427472,
+        "profit": -97.37823788836407,
+        "profit_pips": -24.141765427472706,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-09T11:00:00",
+        "exit_time": "2025-09-09T12:00:00",
+        "direction": "SELL",
+        "entry_price": 146.838,
+        "exit_price": 147.01944542724823,
+        "profit": -95.2603595305355,
+        "profit_pips": -18.14454272482351,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-09T13:30:00",
+        "exit_time": "2025-09-09T16:30:00",
+        "direction": "SELL",
+        "entry_price": 147.167,
+        "exit_price": 147.41124865632136,
+        "profit": -95.39252718264527,
+        "profit_pips": -24.42486563213606,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-09T23:30:00",
+        "exit_time": "2025-09-10T02:30:00",
+        "direction": "SELL",
+        "entry_price": 147.396,
+        "exit_price": 147.391,
+        "profit": 3.297308371958996,
+        "profit_pips": 0.49999999999954525,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-11T22:45:00",
+        "exit_time": "2025-09-11T23:30:00",
+        "direction": "SELL",
+        "entry_price": 147.23,
+        "exit_price": 147.33923782244418,
+        "profit": -93.71954444336897,
+        "profit_pips": -10.92378224441859,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-15T18:45:00",
+        "exit_time": "2025-09-15T19:00:00",
+        "direction": "SELL",
+        "entry_price": 147.399,
+        "exit_price": 147.33842252472718,
+        "profit": 93.08393772554457,
+        "profit_pips": 6.057747527282231,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-15T22:45:00",
+        "exit_time": "2025-09-15T23:15:00",
+        "direction": "SELL",
+        "entry_price": 147.441,
+        "exit_price": 147.52466319718425,
+        "profit": -93.73997686918253,
+        "profit_pips": -8.366319718425075,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-15T23:30:00",
+        "exit_time": "2025-09-16T00:00:00",
+        "direction": "SELL",
+        "entry_price": 147.345,
+        "exit_price": 147.23042369060332,
+        "profit": 93.16459198772392,
+        "profit_pips": 11.457630939668206,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-16T09:30:00",
+        "exit_time": "2025-09-16T10:30:00",
+        "direction": "SELL",
+        "entry_price": 146.98,
+        "exit_price": 147.13034501932324,
+        "profit": -93.37123770299654,
+        "profit_pips": -15.034501932325384,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-17T05:30:00",
+        "exit_time": "2025-09-17T06:30:00",
+        "direction": "SELL",
+        "entry_price": 146.613,
+        "exit_price": 146.50522959394362,
+        "profit": 93.15059298800537,
+        "profit_pips": 10.777040605637467,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-19T02:30:00",
+        "exit_time": "2025-09-19T04:15:00",
+        "direction": "BUY",
+        "entry_price": 147.442,
+        "exit_price": 147.72079989874638,
+        "profit": 94.60646550027953,
+        "profit_pips": 27.87998987463709,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-22T05:00:00",
+        "exit_time": "2025-09-22T05:15:00",
+        "direction": "BUY",
+        "entry_price": 148.096,
+        "exit_price": 147.97347734778685,
+        "profit": -94.9192058147301,
+        "profit_pips": -12.252265221314929,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-22T05:30:00",
+        "exit_time": "2025-09-22T06:00:00",
+        "direction": "BUY",
+        "entry_price": 148.066,
+        "exit_price": 147.90403854122658,
+        "profit": -93.32683234056212,
+        "profit_pips": -16.196145877341905,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-22T07:15:00",
+        "exit_time": "2025-09-22T09:45:00",
+        "direction": "BUY",
+        "entry_price": 147.924,
+        "exit_price": 147.77223947474238,
+        "profit": -93.27867969839149,
+        "profit_pips": -15.176052525762884,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-23T01:15:00",
+        "exit_time": "2025-09-23T04:15:00",
+        "direction": "SELL",
+        "entry_price": 147.782,
+        "exit_price": 147.763,
+        "profit": 19.098778395272728,
+        "profit_pips": 1.9000000000005457,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-24T23:15:00",
+        "exit_time": "2025-09-24T23:45:00",
+        "direction": "BUY",
+        "entry_price": 148.734,
+        "exit_price": 148.85107572703672,
+        "profit": 92.19859672647621,
+        "profit_pips": 11.707572703670621,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-25T23:00:00",
+        "exit_time": "2025-09-26T04:00:00",
+        "direction": "BUY",
+        "entry_price": 149.73,
+        "exit_price": 149.744,
+        "profit": 9.142827874106978,
+        "profit_pips": 1.4000000000010004,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-09-26T11:15:00",
+        "exit_time": "2025-09-26T12:30:00",
+        "direction": "BUY",
+        "entry_price": 149.701,
+        "exit_price": 149.53752158013754,
+        "profit": -93.15427156861409,
+        "profit_pips": -16.347841986245726,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-26T13:00:00",
+        "exit_time": "2025-09-28T19:00:00",
+        "direction": "BUY",
+        "entry_price": 149.55,
+        "exit_price": 149.3899384743221,
+        "profit": -92.23203646254905,
+        "profit_pips": -16.006152567791787,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-28T21:30:00",
+        "exit_time": "2025-09-28T22:00:00",
+        "direction": "BUY",
+        "entry_price": 149.372,
+        "exit_price": 149.27547669907543,
+        "profit": -91.46316321893487,
+        "profit_pips": -9.652330092458783,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-09-29T23:00:00",
+        "exit_time": "2025-09-30T01:45:00",
+        "direction": "SELL",
+        "entry_price": 148.678,
+        "exit_price": 148.53473445074886,
+        "profit": 90.8090850504704,
+        "profit_pips": 14.32655492511401,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-30T18:15:00",
+        "exit_time": "2025-09-30T19:00:00",
+        "direction": "SELL",
+        "entry_price": 147.914,
+        "exit_price": 147.80834868445703,
+        "profit": 91.31897199720338,
+        "profit_pips": 10.565131554295704,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-09-30T22:45:00",
+        "exit_time": "2025-09-30T23:30:00",
+        "direction": "SELL",
+        "entry_price": 148.106,
+        "exit_price": 147.96898213832773,
+        "profit": 92.11255330491186,
+        "profit_pips": 13.70178616722626,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-01T22:45:00",
+        "exit_time": "2025-10-01T23:15:00",
+        "direction": "SELL",
+        "entry_price": 147.191,
+        "exit_price": 147.0596337294737,
+        "profit": 93.35964368850917,
+        "profit_pips": 13.136627052631411,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-02T04:45:00",
+        "exit_time": "2025-10-02T06:00:00",
+        "direction": "SELL",
+        "entry_price": 147.161,
+        "exit_price": 146.95361261219358,
+        "profit": 94.27423703649357,
+        "profit_pips": 20.738738780642052,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-02T11:15:00",
+        "exit_time": "2025-10-02T11:45:00",
+        "direction": "SELL",
+        "entry_price": 147.083,
+        "exit_price": 147.2490727009326,
+        "profit": -94.63256065127676,
+        "profit_pips": -16.60727009326024,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-02T12:15:00",
+        "exit_time": "2025-10-02T12:45:00",
+        "direction": "SELL",
+        "entry_price": 147.159,
+        "exit_price": 147.3382245019523,
+        "profit": -94.09435526474624,
+        "profit_pips": -17.92245019523193,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-02T13:45:00",
+        "exit_time": "2025-10-02T14:45:00",
+        "direction": "SELL",
+        "entry_price": 147.35,
+        "exit_price": 147.17450972786443,
+        "profit": 93.2574371094556,
+        "profit_pips": 17.5490272135562,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-03T06:15:00",
+        "exit_time": "2025-10-03T09:30:00",
+        "direction": "BUY",
+        "entry_price": 147.406,
+        "exit_price": 147.24818038818432,
+        "profit": -93.97152085216837,
+        "profit_pips": -15.78196118156825,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-06T11:00:00",
+        "exit_time": "2025-10-06T14:00:00",
+        "direction": "BUY",
+        "entry_price": 149.882,
+        "exit_price": 150.06,
+        "profit": 69.51878505390833,
+        "profit_pips": 17.799999999999727,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-08T11:15:00",
+        "exit_time": "2025-10-08T13:45:00",
+        "direction": "BUY",
+        "entry_price": 152.552,
+        "exit_price": 152.76519205677857,
+        "profit": 94.18298408150501,
+        "profit_pips": 21.319205677858122,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-08T19:45:00",
+        "exit_time": "2025-10-08T20:45:00",
+        "direction": "BUY",
+        "entry_price": 152.658,
+        "exit_price": 152.52815099954995,
+        "profit": -94.7754376219951,
+        "profit_pips": -12.984900045003656,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-08T21:15:00",
+        "exit_time": "2025-10-08T22:00:00",
+        "direction": "BUY",
+        "entry_price": 152.681,
+        "exit_price": 152.5295147278562,
+        "profit": -94.07938764789968,
+        "profit_pips": -15.148527214381602,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-09T08:15:00",
+        "exit_time": "2025-10-09T11:00:00",
+        "direction": "BUY",
+        "entry_price": 152.635,
+        "exit_price": 152.41121510659607,
+        "profit": -93.13147022341388,
+        "profit_pips": -22.37848934039164,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-09T11:15:00",
+        "exit_time": "2025-10-09T12:00:00",
+        "direction": "BUY",
+        "entry_price": 152.633,
+        "exit_price": 152.98417161913042,
+        "profit": 92.18401147557356,
+        "profit_pips": 35.11716191304117,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-10T02:00:00",
+        "exit_time": "2025-10-10T04:00:00",
+        "direction": "BUY",
+        "entry_price": 152.726,
+        "exit_price": 152.88390477290122,
+        "profit": 93.01123714313606,
+        "profit_pips": 15.790477290121885,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-10T05:00:00",
+        "exit_time": "2025-10-10T08:00:00",
+        "direction": "BUY",
+        "entry_price": 152.704,
+        "exit_price": 152.727,
+        "profit": 8.393730632313494,
+        "profit_pips": 2.2999999999996135,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-13T07:00:00",
+        "exit_time": "2025-10-13T09:00:00",
+        "direction": "SELL",
+        "entry_price": 152.24,
+        "exit_price": 152.04869080663596,
+        "profit": 94.31459452090911,
+        "profit_pips": 19.130919336404872,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-15T10:15:00",
+        "exit_time": "2025-10-15T11:00:00",
+        "direction": "SELL",
+        "entry_price": 151.542,
+        "exit_price": 151.70798329746,
+        "profit": -94.58161621853276,
+        "profit_pips": -16.598329746000218,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-15T11:15:00",
+        "exit_time": "2025-10-15T11:45:00",
+        "direction": "SELL",
+        "entry_price": 151.633,
+        "exit_price": 151.46559689958016,
+        "profit": 94.31885187688249,
+        "profit_pips": 16.740310041984685,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-16T03:45:00",
+        "exit_time": "2025-10-16T04:30:00",
+        "direction": "SELL",
+        "entry_price": 151.055,
+        "exit_price": 151.20137994314896,
+        "profit": -94.65755536945683,
+        "profit_pips": -14.637994314895764,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-16T04:45:00",
+        "exit_time": "2025-10-16T05:30:00",
+        "direction": "SELL",
+        "entry_price": 151.194,
+        "exit_price": 151.02491526802416,
+        "profit": 94.18375087648941,
+        "profit_pips": 16.908473197582907,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-16T07:30:00",
+        "exit_time": "2025-10-16T10:30:00",
+        "direction": "SELL",
+        "entry_price": 151.268,
+        "exit_price": 151.06950018301302,
+        "profit": 95.3177342306937,
+        "profit_pips": 19.849981698698116,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-17T11:00:00",
+        "exit_time": "2025-10-17T12:30:00",
+        "direction": "SELL",
+        "entry_price": 150.354,
+        "exit_price": 150.5911159859039,
+        "profit": -95.64311670516038,
+        "profit_pips": -23.711598590389826,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-17T12:30:00",
+        "exit_time": "2025-10-17T13:30:00",
+        "direction": "SELL",
+        "entry_price": 150.5,
+        "exit_price": 150.2448876926591,
+        "profit": 94.73527944382863,
+        "profit_pips": 25.511230734090873,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-19T19:00:00",
+        "exit_time": "2025-10-19T19:15:00",
+        "direction": "SELL",
+        "entry_price": 150.335,
+        "exit_price": 150.4912508586889,
+        "profit": -96.03863570909616,
+        "profit_pips": -15.625085868887822,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-21T12:15:00",
+        "exit_time": "2025-10-21T14:30:00",
+        "direction": "BUY",
+        "entry_price": 151.629,
+        "exit_price": 151.8846190366735,
+        "profit": 94.92345203898053,
+        "profit_pips": 25.561903667352226,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-21T23:15:00",
+        "exit_time": "2025-10-22T02:00:00",
+        "direction": "BUY",
+        "entry_price": 151.707,
+        "exit_price": 151.83995594415725,
+        "profit": 95.34065194261471,
+        "profit_pips": 13.295594415725986,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-22T14:45:00",
+        "exit_time": "2025-10-22T17:15:00",
+        "direction": "BUY",
+        "entry_price": 151.763,
+        "exit_price": 151.93466094427296,
+        "profit": 96.71782144607961,
+        "profit_pips": 17.166094427295775,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-23T17:15:00",
+        "exit_time": "2025-10-23T20:30:00",
+        "direction": "BUY",
+        "entry_price": 152.548,
+        "exit_price": 152.58,
+        "profit": 26.429687299929437,
+        "profit_pips": 3.2000000000010687,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-10-24T10:45:00",
+        "exit_time": "2025-10-24T11:45:00",
+        "direction": "BUY",
+        "entry_price": 152.676,
+        "exit_price": 152.91585494100747,
+        "profit": 98.2835827623036,
+        "profit_pips": 23.98549410074793,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-26T22:30:00",
+        "exit_time": "2025-10-26T23:15:00",
+        "direction": "BUY",
+        "entry_price": 152.779,
+        "exit_price": 152.96926915613156,
+        "profit": 98.67468465347301,
+        "profit_pips": 19.026915613156348,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-27T03:45:00",
+        "exit_time": "2025-10-27T05:30:00",
+        "direction": "BUY",
+        "entry_price": 152.977,
+        "exit_price": 152.83268636376096,
+        "profit": -99.7891817157345,
+        "profit_pips": -14.431363623904758,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-27T05:45:00",
+        "exit_time": "2025-10-27T08:15:00",
+        "direction": "BUY",
+        "entry_price": 152.818,
+        "exit_price": 152.63965188541263,
+        "profit": -99.34364976247856,
+        "profit_pips": -17.83481145873793,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-27T16:15:00",
+        "exit_time": "2025-10-27T18:45:00",
+        "direction": "BUY",
+        "entry_price": 152.896,
+        "exit_price": 152.77225411611747,
+        "profit": -98.24371655589765,
+        "profit_pips": -12.37458838825205,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-27T19:00:00",
+        "exit_time": "2025-10-27T20:30:00",
+        "direction": "BUY",
+        "entry_price": 152.813,
+        "exit_price": 152.71436994208526,
+        "profit": -97.24837323526016,
+        "profit_pips": -9.863005791473256,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-28T09:45:00",
+        "exit_time": "2025-10-28T10:00:00",
+        "direction": "SELL",
+        "entry_price": 152.132,
+        "exit_price": 152.29982214538876,
+        "profit": -95.62943977513736,
+        "profit_pips": -16.78221453887545,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-28T10:15:00",
+        "exit_time": "2025-10-28T11:15:00",
+        "direction": "SELL",
+        "entry_price": 152.268,
+        "exit_price": 152.08462692190798,
+        "profit": 95.09833870369964,
+        "profit_pips": 18.337307809201775,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-10-29T23:15:00",
+        "exit_time": "2025-10-30T00:00:00",
+        "direction": "BUY",
+        "entry_price": 152.485,
+        "exit_price": 152.2741274547239,
+        "profit": -95.85852123469382,
+        "profit_pips": -21.087254527611776,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-30T00:15:00",
+        "exit_time": "2025-10-30T01:15:00",
+        "direction": "BUY",
+        "entry_price": 152.914,
+        "exit_price": 152.58204782685172,
+        "profit": -95.64017588849335,
+        "profit_pips": -33.195217314826664,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-30T21:00:00",
+        "exit_time": "2025-10-30T22:00:00",
+        "direction": "BUY",
+        "entry_price": 153.918,
+        "exit_price": 153.77359259471345,
+        "profit": -94.30657502003261,
+        "profit_pips": -14.440740528655738,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-10-30T22:45:00",
+        "exit_time": "2025-10-31T00:45:00",
+        "direction": "BUY",
+        "entry_price": 153.83,
+        "exit_price": 154.02082042667868,
+        "profit": 92.85189917009565,
+        "profit_pips": 19.082042667866972,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-02T19:00:00",
+        "exit_time": "2025-11-02T20:00:00",
+        "direction": "BUY",
+        "entry_price": 154.023,
+        "exit_price": 154.1321800377712,
+        "profit": 94.36899825283255,
+        "profit_pips": 10.918003777121044,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-03T01:15:00",
+        "exit_time": "2025-11-03T02:00:00",
+        "direction": "BUY",
+        "entry_price": 154.036,
+        "exit_price": 154.10840062798286,
+        "profit": 95.02733075835543,
+        "profit_pips": 7.240062798285862,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-03T12:30:00",
+        "exit_time": "2025-11-03T15:30:00",
+        "direction": "BUY",
+        "entry_price": 154.146,
+        "exit_price": 154.177,
+        "profit": 19.649396880686,
+        "profit_pips": 3.100000000000591,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-04T00:15:00",
+        "exit_time": "2025-11-04T01:15:00",
+        "direction": "BUY",
+        "entry_price": 154.144,
+        "exit_price": 154.01736613890455,
+        "profit": -96.48263291904176,
+        "profit_pips": -12.663386109545627,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-04T01:45:00",
+        "exit_time": "2025-11-04T02:15:00",
+        "direction": "BUY",
+        "entry_price": 154.06,
+        "exit_price": 153.89442739775558,
+        "profit": -95.40767665888657,
+        "profit_pips": -16.557260224442416,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-04T14:15:00",
+        "exit_time": "2025-11-04T17:15:00",
+        "direction": "SELL",
+        "entry_price": 153.559,
+        "exit_price": 153.68049749893308,
+        "profit": -94.12501197853122,
+        "profit_pips": -12.149749893308126,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-04T17:30:00",
+        "exit_time": "2025-11-04T20:30:00",
+        "direction": "SELL",
+        "entry_price": 153.662,
+        "exit_price": 153.635,
+        "profit": 29.387661023910862,
+        "profit_pips": 2.7000000000015234,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-05T03:45:00",
+        "exit_time": "2025-11-05T04:00:00",
+        "direction": "SELL",
+        "entry_price": 153.665,
+        "exit_price": 153.5202346137848,
+        "profit": 93.61349148292447,
+        "profit_pips": 14.476538621519808,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-05T20:30:00",
+        "exit_time": "2025-11-05T21:00:00",
+        "direction": "BUY",
+        "entry_price": 154.065,
+        "exit_price": 153.99150891418537,
+        "profit": -94.5764607315501,
+        "profit_pips": -7.34910858146236,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-05T21:30:00",
+        "exit_time": "2025-11-05T22:00:00",
+        "direction": "BUY",
+        "entry_price": 153.965,
+        "exit_price": 153.8422886735417,
+        "profit": -93.4940446675662,
+        "profit_pips": -12.271132645830107,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-05T22:30:00",
+        "exit_time": "2025-11-05T23:00:00",
+        "direction": "BUY",
+        "entry_price": 153.93,
+        "exit_price": 153.79982312701284,
+        "profit": -92.51436026823573,
+        "profit_pips": -13.017687298716396,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-06T21:45:00",
+        "exit_time": "2025-11-06T23:15:00",
+        "direction": "SELL",
+        "entry_price": 153.184,
+        "exit_price": 153.00638073239156,
+        "profit": 92.11437931392445,
+        "profit_pips": 17.761926760843494,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-07T04:00:00",
+        "exit_time": "2025-11-07T07:15:00",
+        "direction": "SELL",
+        "entry_price": 153.438,
+        "exit_price": 153.351,
+        "profit": 59.04422874996059,
+        "profit_pips": 8.699999999998909,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-07T11:30:00",
+        "exit_time": "2025-11-07T12:00:00",
+        "direction": "SELL",
+        "entry_price": 153.253,
+        "exit_price": 153.05803230808402,
+        "profit": 93.62164118688514,
+        "profit_pips": 19.496769191596286,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-10T13:30:00",
+        "exit_time": "2025-11-10T16:45:00",
+        "direction": "BUY",
+        "entry_price": 153.975,
+        "exit_price": 154.05,
+        "profit": 53.7813404358972,
+        "profit_pips": 7.500000000001705,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-11T03:00:00",
+        "exit_time": "2025-11-11T05:15:00",
+        "direction": "BUY",
+        "entry_price": 154.195,
+        "exit_price": 154.3022137664331,
+        "profit": 94.72878689637156,
+        "profit_pips": 10.721376643311942,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-12T13:15:00",
+        "exit_time": "2025-11-12T14:00:00",
+        "direction": "BUY",
+        "entry_price": 154.753,
+        "exit_price": 154.6254212148634,
+        "profit": -95.56891605617113,
+        "profit_pips": -12.757878513659193,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-12T14:30:00",
+        "exit_time": "2025-11-12T17:30:00",
+        "direction": "BUY",
+        "entry_price": 154.615,
+        "exit_price": 154.74,
+        "profit": 92.83683765718236,
+        "profit_pips": 12.5,
+        "exit_reason": "TIME"
+      },
+      {
+        "entry_time": "2025-11-13T05:00:00",
+        "exit_time": "2025-11-13T05:30:00",
+        "direction": "BUY",
+        "entry_price": 154.735,
+        "exit_price": 154.59143302966183,
+        "profit": -95.59610799274732,
+        "profit_pips": -14.356697033818477,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-14T00:45:00",
+        "exit_time": "2025-11-14T02:00:00",
+        "direction": "BUY",
+        "entry_price": 154.542,
+        "exit_price": 154.38613521881896,
+        "profit": -94.80340494915458,
+        "profit_pips": -15.586478118103742,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-18T01:30:00",
+        "exit_time": "2025-11-18T03:00:00",
+        "direction": "BUY",
+        "entry_price": 154.96,
+        "exit_price": 155.11552250117094,
+        "profit": 93.59947697689915,
+        "profit_pips": 15.552250117093536,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-18T23:45:00",
+        "exit_time": "2025-11-19T00:45:00",
+        "direction": "BUY",
+        "entry_price": 155.352,
+        "exit_price": 155.23883851994853,
+        "profit": -94.91224605439018,
+        "profit_pips": -11.316148005147397,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-19T00:45:00",
+        "exit_time": "2025-11-19T01:15:00",
+        "direction": "BUY",
+        "entry_price": 155.293,
+        "exit_price": 155.41600645988643,
+        "profit": 93.71890751200281,
+        "profit_pips": 12.3006459886426,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-20T06:00:00",
+        "exit_time": "2025-11-20T08:15:00",
+        "direction": "BUY",
+        "entry_price": 157.253,
+        "exit_price": 157.44127220494946,
+        "profit": 94.02279295502012,
+        "profit_pips": 18.827220494947028,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-20T20:15:00",
+        "exit_time": "2025-11-20T20:30:00",
+        "direction": "BUY",
+        "entry_price": 157.424,
+        "exit_price": 157.2952266881425,
+        "profit": -95.6392563799505,
+        "profit_pips": -12.877331185751473,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-20T20:45:00",
+        "exit_time": "2025-11-20T22:00:00",
+        "direction": "BUY",
+        "entry_price": 157.389,
+        "exit_price": 157.21151693464924,
+        "profit": -94.31642907338569,
+        "profit_pips": -17.748306535077063,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-21T01:15:00",
+        "exit_time": "2025-11-21T04:15:00",
+        "direction": "BUY",
+        "entry_price": 157.191,
+        "exit_price": 157.01586165927296,
+        "profit": -94.19174726017238,
+        "profit_pips": -17.513834072704526,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-23T21:45:00",
+        "exit_time": "2025-11-23T23:30:00",
+        "direction": "SELL",
+        "entry_price": 156.735,
+        "exit_price": 156.61205071557004,
+        "profit": 92.8881576224643,
+        "profit_pips": 12.294928442997843,
+        "exit_reason": "TP"
+      },
+      {
+        "entry_time": "2025-11-24T05:00:00",
+        "exit_time": "2025-11-24T05:45:00",
+        "direction": "SELL",
+        "entry_price": 156.71,
+        "exit_price": 156.84342643932922,
+        "profit": -93.96950038551897,
+        "profit_pips": -13.342643932921305,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-24T06:15:00",
+        "exit_time": "2025-11-24T10:00:00",
+        "direction": "SELL",
+        "entry_price": 156.747,
+        "exit_price": 156.91917716271655,
+        "profit": -92.5991860334282,
+        "profit_pips": -17.21771627165367,
+        "exit_reason": "SL"
+      },
+      {
+        "entry_time": "2025-11-24T16:00:00",
+        "exit_time": "2025-11-24T16:45:00",
+        "direction": "BUY",
+        "entry_price": 156.852,
+        "exit_price": 156.73782991776207,
+        "profit": -92.10330090646923,
+        "profit_pips": -11.417008223793346,
+        "exit_reason": "SL"
+      }
+    ]
+  }
+]

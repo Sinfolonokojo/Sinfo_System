@@ -1,0 +1,707 @@
+{
+  "strategy": "elastic_band",
+  "timestamp": "2025-11-25T19:17:08.690136",
+  "total_combinations": 100,
+  "combinations": [
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 5,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 7,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 9,
+      "atr_sl_multiplier": 2.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.0,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 1.5,
+      "risk_reward_ratio": 2.0,
+      "ema_touch_tolerance_pips": 3,
+      "ema_reversion_period": 30
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 1,
+      "ema_reversion_period": 20
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 100
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.0,
+      "ema_touch_tolerance_pips": 5,
+      "ema_reversion_period": 50
+    },
+    {
+      "rsi_period": 14,
+      "atr_sl_multiplier": 2.0,
+      "risk_reward_ratio": 1.5,
+      "ema_touch_tolerance_pips": 2,
+      "ema_reversion_period": 30
+    }
+  ]
+}

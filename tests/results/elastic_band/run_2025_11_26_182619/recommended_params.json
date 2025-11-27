@@ -1,0 +1,30 @@
+{
+  "best_profit": {
+    "rsi_period": 5,
+    "atr_sl_multiplier": 2.0,
+    "risk_reward_ratio": 2.0,
+    "ema_touch_tolerance_pips": 5,
+    "ema_reversion_period": 20
+  },
+  "best_win_rate": {
+    "rsi_period": 9,
+    "atr_sl_multiplier": 2.5,
+    "risk_reward_ratio": 1.0,
+    "ema_touch_tolerance_pips": 2,
+    "ema_reversion_period": 20
+  },
+  "best_drawdown": {
+    "rsi_period": 14,
+    "atr_sl_multiplier": 2.0,
+    "risk_reward_ratio": 1.0,
+    "ema_touch_tolerance_pips": 2,
+    "ema_reversion_period": 100
+  },
+  "best_risk_adjusted": {
+    "rsi_period": 9,
+    "atr_sl_multiplier": 2.5,
+    "risk_reward_ratio": 2.0,
+    "ema_touch_tolerance_pips": 1,
+    "ema_reversion_period": 20
+  }
+}

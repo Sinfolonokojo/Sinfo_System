@@ -7,7 +7,12 @@ Run backtests on multiple symbols and phases, generate reports.
 import argparse
 from datetime import datetime, timedelta
 from typing import List
-import MetaTrader5 as mt5
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 import json
 
 import sys

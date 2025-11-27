@@ -1,0 +1,33 @@
+{
+  "combo_id": "014",
+  "parameters": {
+    "rsi_period": 5,
+    "atr_sl_multiplier": 1.5,
+    "risk_reward_ratio": 2.0,
+    "ema_touch_tolerance_pips": 3,
+    "ema_reversion_period": 100
+  },
+  "results": {
+    "EURUSD": {
+      "net_profit": 1732.524691206374,
+      "total_trades": 528,
+      "win_rate": 48.86363636363637,
+      "profit_factor": 1.0603279232485734,
+      "max_drawdown_pct": 43.76301568119223,
+      "expectancy": 3.2812967636484354
+    },
+    "GBPUSD": {
+      "net_profit": 4984.688597626089,
+      "total_trades": 466,
+      "win_rate": 50.21459227467812,
+      "profit_factor": 1.1819978707238454,
+      "max_drawdown_pct": 15.695533430687975,
+      "expectancy": 10.696756647266286
+    }
+  },
+  "aggregate": {
+    "total_profit": 6717.213288832463,
+    "total_trades": 994,
+    "avg_win_rate": 49.49698189134809
+  }
+}

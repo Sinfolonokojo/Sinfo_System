@@ -9,7 +9,12 @@ import numpy as np
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, field
-import MetaTrader5 as mt5
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 
 import sys
 import os

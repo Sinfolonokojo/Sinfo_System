@@ -1,0 +1,169 @@
+{
+  "run_directory": "tests/results\\macd_rsi\\run_2025_11_26_184356",
+  "strategy": "macd_rsi",
+  "total_combinations_tested": 100,
+  "symbols": [
+    "EURUSD",
+    "GBPUSD"
+  ],
+  "top_10_by_profit": [
+    {
+      "rank": 1,
+      "combo_id": "001",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 21,
+        "macd_signal": 7,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 2,
+      "combo_id": "005",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 21,
+        "macd_signal": 9,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 3,
+      "combo_id": "009",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 21,
+        "macd_signal": 11,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 4,
+      "combo_id": "013",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 27,
+        "macd_signal": 7,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 5,
+      "combo_id": "017",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 27,
+        "macd_signal": 9,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 6,
+      "combo_id": "021",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 27,
+        "macd_signal": 11,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 7,
+      "combo_id": "025",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 33,
+        "macd_signal": 7,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 8,
+      "combo_id": "029",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 33,
+        "macd_signal": 9,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 9,
+      "combo_id": "033",
+      "parameters": {
+        "macd_fast": 8,
+        "macd_slow": 33,
+        "macd_signal": 11,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    },
+    {
+      "rank": 10,
+      "combo_id": "037",
+      "parameters": {
+        "macd_fast": 12,
+        "macd_slow": 21,
+        "macd_signal": 7,
+        "rsi_period": 5,
+        "macd_rsi_atr_sl": 1.5,
+        "macd_rsi_rr_ratio": 1.5
+      },
+      "total_profit": 8249.494589991305,
+      "avg_win_rate": 58.39188134270101,
+      "total_trades": 1281
+    }
+  ],
+  "best_parameters": {
+    "macd_fast": 8,
+    "macd_slow": 21,
+    "macd_signal": 7,
+    "rsi_period": 5,
+    "macd_rsi_atr_sl": 1.5,
+    "macd_rsi_rr_ratio": 1.5
+  }
+}

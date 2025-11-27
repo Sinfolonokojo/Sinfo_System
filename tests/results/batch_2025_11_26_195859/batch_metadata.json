@@ -1,0 +1,49 @@
+{
+  "batch_id": "2025_11_26_195859",
+  "start_time": "2025-11-26T19:58:59.483000",
+  "end_time": "2025-11-26T19:59:00.795048",
+  "duration_seconds": 1.312048,
+  "strategies": [
+    "elastic_band",
+    "fvg",
+    "macd_rsi",
+    "elastic_bb"
+  ],
+  "symbols": [
+    "EURUSD"
+  ],
+  "phases": [
+    1
+  ],
+  "days": 180,
+  "max_combinations": 50,
+  "total_runs": 4,
+  "successful_runs": 0,
+  "failed_runs": 4,
+  "results": {
+    "elastic_band_phase1": {
+      "strategy": "elastic_band",
+      "phase": 1,
+      "status": "failed",
+      "error": "Grid search failed: Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\grid_search.py\", line 18, in <module>\n    from bot.config import TradingPhase, STRATEGY_CONFIG\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\__init__.py\", line 2, in <module>\n    from .indicators import Indicators\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\indicators.py\", line 7, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+    },
+    "fvg_phase1": {
+      "strategy": "fvg",
+      "phase": 1,
+      "status": "failed",
+      "error": "Grid search failed: Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\grid_search.py\", line 18, in <module>\n    from bot.config import TradingPhase, STRATEGY_CONFIG\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\__init__.py\", line 2, in <module>\n    from .indicators import Indicators\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\indicators.py\", line 7, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+    },
+    "macd_rsi_phase1": {
+      "strategy": "macd_rsi",
+      "phase": 1,
+      "status": "failed",
+      "error": "Grid search failed: Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\grid_search.py\", line 18, in <module>\n    from bot.config import TradingPhase, STRATEGY_CONFIG\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\__init__.py\", line 2, in <module>\n    from .indicators import Indicators\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\indicators.py\", line 7, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+    },
+    "elastic_bb_phase1": {
+      "strategy": "elastic_bb",
+      "phase": 1,
+      "status": "failed",
+      "error": "Grid search failed: Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\grid_search.py\", line 18, in <module>\n    from bot.config import TradingPhase, STRATEGY_CONFIG\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\__init__.py\", line 2, in <module>\n    from .indicators import Indicators\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\indicators.py\", line 7, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+    }
+  }
+}

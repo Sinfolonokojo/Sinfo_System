@@ -7,7 +7,12 @@ mean reversion signal quality.
 
 from enum import Enum
 from typing import Optional, Dict, Any
-import MetaTrader5 as mt5
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 import numpy as np
 
 import sys

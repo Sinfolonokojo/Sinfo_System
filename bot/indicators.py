@@ -6,7 +6,12 @@ Calculates EMA, RSI, and ATR for the Elastic Band strategy.
 
 import numpy as np
 from typing import Optional, Dict, Any, List
-import MetaTrader5 as mt5
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 
 import sys
 import os

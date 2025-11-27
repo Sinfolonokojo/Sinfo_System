@@ -1,0 +1,28 @@
+{
+  "batch_id": "2025_11_26_195227",
+  "start_time": "2025-11-26T19:52:27.683992",
+  "end_time": "2025-11-26T19:52:27.942020",
+  "duration_seconds": 0.258028,
+  "strategies": [
+    "elastic_band"
+  ],
+  "symbols": [
+    "EURUSD"
+  ],
+  "phases": [
+    1
+  ],
+  "days": 360,
+  "max_combinations": 100,
+  "total_runs": 1,
+  "successful_runs": 0,
+  "failed_runs": 1,
+  "results": {
+    "elastic_band_phase1": {
+      "strategy": "elastic_band",
+      "phase": 1,
+      "status": "failed",
+      "error": "Grid search failed: Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\grid_search.py\", line 18, in <module>\n    from bot.config import TradingPhase, STRATEGY_CONFIG\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\__init__.py\", line 1, in <module>\n    from .risk_manager import RiskManager, DailyLossGuard, PositionSizer, TiltProtection\n  File \"C:\\Users\\Admin\\Projects\\Sinfo_System\\bot\\risk_manager.py\", line 11, in <module>\n    import MetaTrader5 as mt5\nModuleNotFoundError: No module named 'MetaTrader5'\n"
+    }
+  }
+}

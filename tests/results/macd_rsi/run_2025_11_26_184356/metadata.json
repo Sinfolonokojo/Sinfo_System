@@ -1,0 +1,14 @@
+{
+  "run_id": "run_2025_11_26_184356",
+  "strategy": "macd_rsi",
+  "symbols": [
+    "EURUSD",
+    "GBPUSD"
+  ],
+  "phase": "challenge",
+  "start_date": "2024-12-01T18:43:56.692309",
+  "end_date": "2025-11-26T18:43:56.692309",
+  "initial_balance": 10000.0,
+  "total_combinations": 100,
+  "created_at": "2025-11-26T18:43:56.694275"
+}

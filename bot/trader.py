@@ -6,7 +6,12 @@ Handles sending orders to MT5 and monitoring open trades for exits.
 
 from datetime import datetime, timedelta
 from typing import Optional, Dict, Any, List
-import MetaTrader5 as mt5
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 
 import sys
 import os

@@ -1,0 +1,87 @@
+{
+  "run_directory": "tests/results\\elastic_band\\run_2025_11_26_195154",
+  "strategy": "elastic_band",
+  "total_combinations_tested": 5,
+  "symbols": [
+    "EURUSD"
+  ],
+  "top_10_by_profit": [
+    {
+      "rank": 1,
+      "combo_id": "002",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.5,
+        "risk_reward_ratio": 1.0,
+        "ema_touch_tolerance_pips": 3,
+        "ema_reversion_period": 30
+      },
+      "total_profit": 2129.141980551378,
+      "avg_win_rate": 66.76300578034682,
+      "total_trades": 346
+    },
+    {
+      "rank": 2,
+      "combo_id": "004",
+      "parameters": {
+        "rsi_period": 9,
+        "atr_sl_multiplier": 1.5,
+        "risk_reward_ratio": 1.5,
+        "ema_touch_tolerance_pips": 3,
+        "ema_reversion_period": 100
+      },
+      "total_profit": 891.9108312927729,
+      "avg_win_rate": 51.93798449612403,
+      "total_trades": 129
+    },
+    {
+      "rank": 3,
+      "combo_id": "005",
+      "parameters": {
+        "rsi_period": 14,
+        "atr_sl_multiplier": 1.0,
+        "risk_reward_ratio": 2.0,
+        "ema_touch_tolerance_pips": 2,
+        "ema_reversion_period": 20
+      },
+      "total_profit": 154.75064797327468,
+      "avg_win_rate": 42.42424242424242,
+      "total_trades": 33
+    },
+    {
+      "rank": 4,
+      "combo_id": "003",
+      "parameters": {
+        "rsi_period": 7,
+        "atr_sl_multiplier": 2.0,
+        "risk_reward_ratio": 1.5,
+        "ema_touch_tolerance_pips": 1,
+        "ema_reversion_period": 50
+      },
+      "total_profit": -399.5428133667574,
+      "avg_win_rate": 54.824561403508774,
+      "total_trades": 228
+    },
+    {
+      "rank": 5,
+      "combo_id": "001",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 1.0,
+        "risk_reward_ratio": 1.0,
+        "ema_touch_tolerance_pips": 1,
+        "ema_reversion_period": 20
+      },
+      "total_profit": -1937.6355741789812,
+      "avg_win_rate": 48.91089108910891,
+      "total_trades": 505
+    }
+  ],
+  "best_parameters": {
+    "rsi_period": 5,
+    "atr_sl_multiplier": 2.5,
+    "risk_reward_ratio": 1.0,
+    "ema_touch_tolerance_pips": 3,
+    "ema_reversion_period": 30
+  }
+}

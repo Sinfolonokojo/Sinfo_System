@@ -6,7 +6,12 @@ Entry logic state machine for the prop firm trading strategy.
 
 from enum import Enum
 from typing import Optional, Dict, Any
-import MetaTrader5 as mt5
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 
 import sys
 import os

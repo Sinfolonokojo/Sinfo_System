@@ -16,6 +16,10 @@ import os
 # Suppress MT5 import errors during parameter grid generation
 try:
     import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 except:
     pass
 

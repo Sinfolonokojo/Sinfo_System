@@ -1,0 +1,8 @@
+{
+  "macd_fast": 8,
+  "macd_slow": 21,
+  "macd_signal": 7,
+  "rsi_period": 5,
+  "macd_rsi_atr_sl": 1.5,
+  "macd_rsi_rr_ratio": 1.5
+}

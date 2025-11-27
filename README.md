@@ -16,7 +16,10 @@ A high-win-rate mean reversion strategy designed to pass prop firm evaluations w
 ### Quick Start
 
 ```bash
-# Run the bot
+# 🚀 NEW: Complete automated optimization (ONE COMMAND!)
+python bot/automate_optimization.py --symbols EURUSD,GBPUSD --phase 1 --days 90 --auto-apply
+
+# Run the bot with optimized settings
 python bot/main.py --account YOUR_ACCOUNT --password YOUR_PASSWORD --server YOUR_SERVER
 
 # Run backtests
@@ -26,7 +29,36 @@ python bot/backtest_runner.py --symbols EURUSD,GBPUSD,USDJPY --phase 1 --days 90
 python -m pytest tests/ -v
 ```
 
-**Full Documentation:** [docs/ELASTIC_BAND_BOT.md](docs/ELASTIC_BAND_BOT.md)
+**Full Documentation:**
+- [AUTOMATION_GUIDE.md](AUTOMATION_GUIDE.md) - **NEW! Complete automation system**
+- [docs/ELASTIC_BAND_BOT.md](docs/ELASTIC_BAND_BOT.md) - Bot details
+- [GRID_SEARCH_GUIDE.md](GRID_SEARCH_GUIDE.md) - Parameter optimization
+
+### Key Features
+
+🚀 **Full Automation**
+- One-command optimization across all 4 strategies
+- Automatic parameter application (no manual editing!)
+- Batch testing for multiple strategies/phases
+- Unified comparison and ranking
+
+📊 **4 Trading Strategies**
+- Elastic Band: Mean reversion with EMA bands
+- FVG (Fair Value Gap): 61% win rate gap trading
+- MACD + RSI: Momentum-based combination
+- Elastic BB: Enhanced with Bollinger Bands
+
+🛡️ **Robust Risk Management**
+- Daily Loss Guard with tilt protection
+- Dynamic position sizing based on account phase
+- News filter integration (ForexFactory)
+- Automatic SL/TP management
+
+🧪 **Advanced Testing**
+- Historical backtesting with MT5 data
+- Grid search parameter optimization
+- Multi-metric ranking (profit, win rate, drawdown, risk-adjusted)
+- Resume capability for interrupted tests
 
 ### Strategy Overview
 

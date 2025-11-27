@@ -1,0 +1,25 @@
+{
+  "combo_id": "004",
+  "parameters": {
+    "rsi_period": 9,
+    "atr_sl_multiplier": 1.5,
+    "risk_reward_ratio": 1.5,
+    "ema_touch_tolerance_pips": 3,
+    "ema_reversion_period": 100
+  },
+  "results": {
+    "EURUSD": {
+      "net_profit": 891.9108312927729,
+      "total_trades": 129,
+      "win_rate": 51.93798449612403,
+      "profit_factor": 1.1434914692090457,
+      "max_drawdown_pct": 12.169311634395145,
+      "expectancy": 6.91403745188196
+    }
+  },
+  "aggregate": {
+    "total_profit": 891.9108312927729,
+    "total_trades": 129,
+    "avg_win_rate": 51.93798449612403
+  }
+}

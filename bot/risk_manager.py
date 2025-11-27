@@ -8,7 +8,13 @@ to prevent account breaches. Risk management is the primary driver.
 import time
 from datetime import datetime, timedelta
 from typing import Optional
-import MetaTrader5 as mt5
+
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
 
 import sys
 import os

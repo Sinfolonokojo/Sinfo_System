@@ -1,0 +1,159 @@
+{
+  "run_directory": "tests/results\\elastic_band\\run_2025_11_26_182619",
+  "strategy": "elastic_band",
+  "total_combinations_tested": 100,
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY"
+  ],
+  "top_10_by_profit": [
+    {
+      "rank": 1,
+      "combo_id": "021",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.0,
+        "risk_reward_ratio": 2.0,
+        "ema_touch_tolerance_pips": 5,
+        "ema_reversion_period": 20
+      },
+      "total_profit": 7220.250148832865,
+      "avg_win_rate": 56.334231805929925,
+      "total_trades": 1113
+    },
+    {
+      "rank": 2,
+      "combo_id": "025",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.5,
+        "risk_reward_ratio": 1.5,
+        "ema_touch_tolerance_pips": 3,
+        "ema_reversion_period": 20
+      },
+      "total_profit": 6503.246757901148,
+      "avg_win_rate": 64.09001956947162,
+      "total_trades": 1022
+    },
+    {
+      "rank": 3,
+      "combo_id": "020",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.0,
+        "risk_reward_ratio": 2.0,
+        "ema_touch_tolerance_pips": 2,
+        "ema_reversion_period": 30
+      },
+      "total_profit": 6490.932687016048,
+      "avg_win_rate": 56.093023255813954,
+      "total_trades": 1075
+    },
+    {
+      "rank": 4,
+      "combo_id": "028",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.5,
+        "risk_reward_ratio": 2.0,
+        "ema_touch_tolerance_pips": 5,
+        "ema_reversion_period": 30
+      },
+      "total_profit": 6184.408560083708,
+      "avg_win_rate": 63.39285714285714,
+      "total_trades": 1008
+    },
+    {
+      "rank": 5,
+      "combo_id": "017",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.0,
+        "risk_reward_ratio": 1.5,
+        "ema_touch_tolerance_pips": 1,
+        "ema_reversion_period": 20
+      },
+      "total_profit": 5206.942983894738,
+      "avg_win_rate": 57.309417040358746,
+      "total_trades": 1115
+    },
+    {
+      "rank": 6,
+      "combo_id": "024",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.5,
+        "risk_reward_ratio": 1.5,
+        "ema_touch_tolerance_pips": 1,
+        "ema_reversion_period": 30
+      },
+      "total_profit": 4988.681153795367,
+      "avg_win_rate": 63.75770020533881,
+      "total_trades": 974
+    },
+    {
+      "rank": 7,
+      "combo_id": "016",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.0,
+        "risk_reward_ratio": 1.0,
+        "ema_touch_tolerance_pips": 3,
+        "ema_reversion_period": 30
+      },
+      "total_profit": 4866.544037161775,
+      "avg_win_rate": 60.36199095022624,
+      "total_trades": 1105
+    },
+    {
+      "rank": 8,
+      "combo_id": "081",
+      "parameters": {
+        "rsi_period": 9,
+        "atr_sl_multiplier": 2.5,
+        "risk_reward_ratio": 2.0,
+        "ema_touch_tolerance_pips": 1,
+        "ema_reversion_period": 20
+      },
+      "total_profit": 4613.84597264148,
+      "avg_win_rate": 65.66757493188011,
+      "total_trades": 367
+    },
+    {
+      "rank": 9,
+      "combo_id": "083",
+      "parameters": {
+        "rsi_period": 9,
+        "atr_sl_multiplier": 2.5,
+        "risk_reward_ratio": 2.0,
+        "ema_touch_tolerance_pips": 5,
+        "ema_reversion_period": 50
+      },
+      "total_profit": 4582.4114874282,
+      "avg_win_rate": 65.47945205479452,
+      "total_trades": 365
+    },
+    {
+      "rank": 10,
+      "combo_id": "027",
+      "parameters": {
+        "rsi_period": 5,
+        "atr_sl_multiplier": 2.5,
+        "risk_reward_ratio": 2.0,
+        "ema_touch_tolerance_pips": 2,
+        "ema_reversion_period": 50
+      },
+      "total_profit": 4489.436979657967,
+      "avg_win_rate": 62.83391405342624,
+      "total_trades": 861
+    }
+  ],
+  "best_parameters": {
+    "rsi_period": 5,
+    "atr_sl_multiplier": 2.0,
+    "risk_reward_ratio": 2.0,
+    "ema_touch_tolerance_pips": 5,
+    "ema_reversion_period": 20
+  }
+}

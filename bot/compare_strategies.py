@@ -43,7 +43,12 @@ def compare_all_strategies(
     Returns:
         Dictionary of strategy results.
     """
+    try:
     import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
     from bot.backtester import Backtester
     from bot.config import STRATEGY_CONFIG
 
@@ -280,7 +285,12 @@ def main():
     args = parser.parse_args()
 
     # Initialize MT5
+    try:
     import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
     if not mt5.initialize():
         logger.error(f"MT5 initialize failed: {mt5.last_error()}")
         sys.exit(1)

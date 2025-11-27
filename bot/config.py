@@ -66,7 +66,7 @@ class StrategyType(Enum):
 
 
 # Active strategy (change this to switch strategies)
-ACTIVE_STRATEGY = StrategyType.MACD_RSI
+ACTIVE_STRATEGY = StrategyType.ELASTIC_BAND
 
 
 # Strategy parameters
@@ -82,7 +82,7 @@ STRATEGY_CONFIG = {
     # Indicator periods
     'ema_trend_period': 200,
     'ema_reversion_period': 50,
-    'rsi_period': 7,
+    'rsi_period': 14,
     'atr_period': 14,
 
     # RSI levels
@@ -93,8 +93,8 @@ STRATEGY_CONFIG = {
     'ema_touch_tolerance_pips': 2,
 
     # Exit parameters
-    'atr_sl_multiplier': 1.5,
-    'risk_reward_ratio': 1.0,  # 1:1 TP ratio
+    'atr_sl_multiplier': 2.0,
+    'risk_reward_ratio': 1.5,  # 1:1 TP ratio
     'max_trade_duration_minutes': 180,  # 3 hours
 
     # === FVG STRATEGY PARAMETERS ===

@@ -88,7 +88,12 @@ class GridSearchRunner:
         Args:
             resume_from: Combination index to resume from (0-based).
         """
-        import MetaTrader5 as mt5
+        try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
+    mt5 = None
         from bot.backtester import Backtester
 
         # Initialize MT5

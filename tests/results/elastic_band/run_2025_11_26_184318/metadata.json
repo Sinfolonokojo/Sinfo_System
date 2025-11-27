@@ -1,0 +1,14 @@
+{
+  "run_id": "run_2025_11_26_184318",
+  "strategy": "elastic_band",
+  "symbols": [
+    "EURUSD",
+    "GBPUSD"
+  ],
+  "phase": "challenge",
+  "start_date": "2024-12-01T18:43:18.360602",
+  "end_date": "2025-11-26T18:43:18.360602",
+  "initial_balance": 10000.0,
+  "total_combinations": 100,
+  "created_at": "2025-11-26T18:43:18.362115"
+}

@@ -281,11 +281,12 @@ class Backtester:
 
             # Check entry signals if not in position
             if not in_position:
-                # Use strategy instance if available, otherwise use hardcoded logic
-                if strategy_instance:
-                    # Update strategy indicators (simplified for backtesting)
-                    # We'll use the default _check_signal for now as strategy classes
-                    # need live MT5 data. TODO: Refactor strategies for backtest compatibility
+                # Detect strategy type and use appropriate signal logic
+                if strategy_instance and 'FVG' in strategy_name:
+                    # FVG Strategy: Check for Fair Value Gaps
+                    signal = self._check_fvg_signal(rates, i, pip_size)
+                elif strategy_instance and 'MACD' in strategy_name:
+                    # MACD+RSI Strategy (to be implemented)
                     signal = self._check_signal(
                         close[i], close[i-1], high[i], low[i],
                         ema_trend[i], ema_reversion[i],
@@ -293,6 +294,7 @@ class Backtester:
                         pip_tolerance
                     )
                 else:
+                    # Default: Elastic Band Strategy
                     signal = self._check_signal(
                         close[i], close[i-1], high[i], low[i],
                         ema_trend[i], ema_reversion[i],
@@ -303,9 +305,18 @@ class Backtester:
                 if signal:
                     # Calculate position size
                     atr_pips = atr[i] / pip_size
-                    sl_pips = atr_pips * self.atr_sl_multiplier
+
+                    # Use strategy-specific parameters
+                    if strategy_instance and 'FVG' in strategy_name:
+                        sl_multiplier = STRATEGY_CONFIG.get('atr_sl_multiplier', 2.0)
+                        rr_ratio = STRATEGY_CONFIG.get('fvg_risk_reward_ratio', 1.5)
+                    else:
+                        sl_multiplier = self.atr_sl_multiplier
+                        rr_ratio = self.rr_ratio
+
+                    sl_pips = atr_pips * sl_multiplier
                     sl_distance = sl_pips * pip_size
-                    tp_distance = sl_distance * self.rr_ratio
+                    tp_distance = sl_distance * rr_ratio
 
                     risk_pct = (self.phase_config.risk_per_trade_min +
                                self.phase_config.risk_per_trade_max) / 2
@@ -459,6 +470,57 @@ class Backtester:
             prev_rsi > self.rsi_overbought and
             rsi <= self.rsi_overbought):
             return 'SELL'
+
+        return None
+
+    def _check_fvg_signal(
+        self,
+        rates: np.ndarray,
+        current_idx: int,
+        pip_size: float
+    ) -> Optional[str]:
+        """
+        Check for Fair Value Gap (FVG) entry signal.
+
+        FVG occurs when:
+        - Bullish: current bar's low > high from 2 bars ago
+        - Bearish: current bar's high < low from 2 bars ago
+
+        Args:
+            rates: Historical OHLC data
+            current_idx: Current bar index
+            pip_size: Size of one pip for the symbol
+
+        Returns:
+            'BUY', 'SELL', or None
+        """
+        # Need at least 3 bars
+        if current_idx < 2:
+            return None
+
+        current = rates[current_idx]
+        prev_2 = rates[current_idx - 2]
+
+        # Get FVG parameters from config
+        min_gap_pips = STRATEGY_CONFIG.get('fvg_min_gap_pips', 5)
+
+        # Check for Bullish FVG (current low > high from 2 bars ago)
+        if current['low'] > prev_2['high']:
+            gap_size = current['low'] - prev_2['high']
+            gap_pips = gap_size / pip_size
+
+            # Filter by minimum gap size
+            if gap_pips >= min_gap_pips:
+                return 'BUY'
+
+        # Check for Bearish FVG (current high < low from 2 bars ago)
+        if current['high'] < prev_2['low']:
+            gap_size = prev_2['low'] - current['high']
+            gap_pips = gap_size / pip_size
+
+            # Filter by minimum gap size
+            if gap_pips >= min_gap_pips:
+                return 'SELL'
 
         return None
 

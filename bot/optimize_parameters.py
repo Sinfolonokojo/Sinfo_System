@@ -26,40 +26,45 @@ except:
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-# Parameter grids for each strategy
+# Parameter grids for each strategy (EXPANDED for maximum thoroughness)
+
+# ELASTIC BAND - More granular values (7×7×6×7×7 = 14,406 combinations → sample to 200)
 ELASTIC_BAND_PARAMS = {
-    'rsi_period': [5, 7, 9, 14],
-    'atr_sl_multiplier': [1.0, 1.5, 2.0, 2.5],
-    'risk_reward_ratio': [1.0, 1.5, 2.0],
-    'ema_touch_tolerance_pips': [1, 2, 3, 5],
-    'ema_reversion_period': [20, 30, 50, 100],
+    'rsi_period': [5, 7, 9, 11, 14, 17, 21],  # Expanded from 4 to 7 values
+    'atr_sl_multiplier': [1.0, 1.25, 1.5, 1.75, 2.0, 2.5, 3.0],  # Expanded from 4 to 7 values
+    'risk_reward_ratio': [1.0, 1.25, 1.5, 1.75, 2.0, 2.5],  # Expanded from 3 to 6 values
+    'ema_touch_tolerance_pips': [1, 2, 3, 4, 5, 7, 10],  # Expanded from 4 to 7 values
+    'ema_reversion_period': [20, 30, 40, 50, 75, 100, 150],  # Expanded from 4 to 7 values
 }
 
+# FVG - Expanded to get closer to 200 combos (9×7×7 = 441 combinations → sample to 200)
 FVG_PARAMS = {
-    'fvg_min_gap_pips': [3, 5, 7, 10],
-    'fvg_risk_reward_ratio': [1.0, 1.5, 2.0],
-    'atr_sl_multiplier': [1.0, 1.5, 2.0],
+    'fvg_min_gap_pips': [2, 3, 4, 5, 6, 7, 8, 10, 12],  # Expanded from 4 to 9 values
+    'fvg_risk_reward_ratio': [0.8, 1.0, 1.25, 1.5, 1.75, 2.0, 2.5],  # Expanded from 3 to 7 values
+    'atr_sl_multiplier': [1.0, 1.25, 1.5, 1.75, 2.0, 2.5, 3.0],  # Expanded from 3 to 7 values
 }
 
+# MACD+RSI - More granular (4×4×4×5×4×4 = 5,120 combinations → sample to 200)
 MACD_RSI_PARAMS = {
-    'macd_fast': [8, 12, 16],
-    'macd_slow': [21, 27, 33],
-    'macd_signal': [7, 9, 11],
-    'rsi_period': [5, 7, 9, 14],
-    'macd_rsi_atr_sl': [1.5, 2.0, 2.5],
-    'macd_rsi_rr_ratio': [1.5, 2.0, 2.5],
+    'macd_fast': [8, 10, 12, 16],  # Expanded from 3 to 4 values
+    'macd_slow': [21, 24, 27, 33],  # Expanded from 3 to 4 values
+    'macd_signal': [7, 8, 9, 11],  # Expanded from 3 to 4 values
+    'rsi_period': [5, 7, 9, 11, 14],  # Expanded from 4 to 5 values
+    'macd_rsi_atr_sl': [1.25, 1.5, 2.0, 2.5],  # Expanded from 3 to 4 values
+    'macd_rsi_rr_ratio': [1.25, 1.5, 2.0, 2.5],  # Expanded from 3 to 4 values
 }
 
+# ELASTIC BB - More granular (5×4×4×5×5 = 2,000 combinations → sample to 200)
 ELASTIC_BB_PARAMS = {
-    'rsi_period': [5, 7, 9, 14],
-    'bb_period': [15, 20, 25],
-    'bb_std_dev': [1.5, 2.0, 2.5],
-    'atr_sl_multiplier': [1.0, 1.5, 2.0],
-    'elastic_bb_rr_ratio': [1.0, 1.5, 2.0],
+    'rsi_period': [5, 7, 9, 11, 14],  # Expanded from 4 to 5 values
+    'bb_period': [15, 18, 20, 25],  # Expanded from 3 to 4 values
+    'bb_std_dev': [1.5, 1.75, 2.0, 2.5],  # Expanded from 3 to 4 values
+    'atr_sl_multiplier': [1.0, 1.25, 1.5, 2.0, 2.5],  # Expanded from 3 to 5 values
+    'elastic_bb_rr_ratio': [1.0, 1.25, 1.5, 1.75, 2.0],  # Expanded from 3 to 5 values
 }
 
 
-def generate_param_combinations(param_grid: Dict[str, List[Any]], max_combinations: int = 100) -> List[Dict[str, Any]]:
+def generate_param_combinations(param_grid: Dict[str, List[Any]], max_combinations: int = 200) -> List[Dict[str, Any]]:
     """
     Generate parameter combinations from a grid.
 

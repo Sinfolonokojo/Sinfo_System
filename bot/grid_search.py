@@ -89,12 +89,27 @@ class GridSearchRunner:
             resume_from: Combination index to resume from (0-based).
         """
         try:
-    import MetaTrader5 as mt5
-    MT5_AVAILABLE = True
-except ImportError:
-    MT5_AVAILABLE = False
-    mt5 = None
+            import MetaTrader5 as mt5
+        except ImportError:
+            logger.error("MetaTrader5 not available. Please install it: pip install MetaTrader5")
+            return
+
         from bot.backtester import Backtester
+        from bot.strategy_fvg import FVGStrategy
+        from bot.strategy_macd_rsi import MACDRSIStrategy
+        from bot.strategy_elastic_bb import ElasticBBStrategy
+        from bot.strategy import ElasticBandStrategy
+
+        # Map strategy names to classes
+        strategy_map = {
+            'fvg': FVGStrategy,
+            'macd_rsi': MACDRSIStrategy,
+            'elastic_bb': ElasticBBStrategy,
+            'elastic_band': ElasticBandStrategy
+        }
+
+        # Get strategy class for this run
+        strategy_class = strategy_map.get(self.strategy_name.lower())
 
         # Initialize MT5
         if not mt5.initialize():
@@ -144,7 +159,8 @@ except ImportError:
                 for symbol in self.symbols:
                     logger.info(f"  Testing {symbol}...")
 
-                    backtester = Backtester(self.phase)
+                    # Create backtester with strategy class
+                    backtester = Backtester(self.phase, strategy_class=strategy_class)
                     result = backtester.run(
                         symbol,
                         self.start_date,

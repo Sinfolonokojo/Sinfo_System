@@ -66,7 +66,7 @@ class StrategyType(Enum):
 
 
 # Active strategy (change this to switch strategies)
-ACTIVE_STRATEGY = StrategyType.ELASTIC_BAND
+ACTIVE_STRATEGY = StrategyType.FVG
 
 
 # Strategy parameters
@@ -81,8 +81,8 @@ STRATEGY_CONFIG = {
     # === ELASTIC BAND PARAMETERS ===
     # Indicator periods
     'ema_trend_period': 200,
-    'ema_reversion_period': 50,
-    'rsi_period': 14,
+    'ema_reversion_period': 100,  # Conservative: Low DD (4.9%)
+    'rsi_period': 14,  # Conservative: Low DD (4.9%)
     'atr_period': 14,
 
     # RSI levels
@@ -90,11 +90,11 @@ STRATEGY_CONFIG = {
     'rsi_overbought': 70,
 
     # Entry tolerance (pips)
-    'ema_touch_tolerance_pips': 2,
+    'ema_touch_tolerance_pips': 10,  # Conservative: Low DD (4.9%)
 
     # Exit parameters
-    'atr_sl_multiplier': 2.0,
-    'risk_reward_ratio': 1.5,  # 1:1 TP ratio
+    'atr_sl_multiplier': 2.0,  # Conservative: Low DD (4.9%)
+    'risk_reward_ratio': 1.25,  # Conservative: Low DD (4.9%)
     'max_trade_duration_minutes': 180,  # 3 hours
 
     # === FVG STRATEGY PARAMETERS ===

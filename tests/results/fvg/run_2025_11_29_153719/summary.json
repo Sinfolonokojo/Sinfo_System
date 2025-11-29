@@ -1,0 +1,137 @@
+{
+  "run_directory": "tests/results\\fvg\\run_2025_11_29_153719",
+  "strategy": "fvg",
+  "total_combinations_tested": 200,
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY"
+  ],
+  "top_10_by_profit": [
+    {
+      "rank": 1,
+      "combo_id": "046",
+      "parameters": {
+        "fvg_min_gap_pips": 3,
+        "fvg_risk_reward_ratio": 2.0,
+        "atr_sl_multiplier": 3.0
+      },
+      "total_profit": 3214.752941957724,
+      "avg_win_rate": 68.39887640449437,
+      "total_trades": 1424
+    },
+    {
+      "rank": 2,
+      "combo_id": "039",
+      "parameters": {
+        "fvg_min_gap_pips": 3,
+        "fvg_risk_reward_ratio": 1.5,
+        "atr_sl_multiplier": 3.0
+      },
+      "total_profit": 2395.80212314635,
+      "avg_win_rate": 68.53002070393374,
+      "total_trades": 1449
+    },
+    {
+      "rank": 3,
+      "combo_id": "095",
+      "parameters": {
+        "fvg_min_gap_pips": 5,
+        "fvg_risk_reward_ratio": 2.0,
+        "atr_sl_multiplier": 3.0
+      },
+      "total_profit": 2185.817017591924,
+      "avg_win_rate": 69.40686784599376,
+      "total_trades": 961
+    },
+    {
+      "rank": 4,
+      "combo_id": "112",
+      "parameters": {
+        "fvg_min_gap_pips": 6,
+        "fvg_risk_reward_ratio": 1.5,
+        "atr_sl_multiplier": 2.5
+      },
+      "total_profit": 1956.0612833331434,
+      "avg_win_rate": 64.94117647058823,
+      "total_trades": 850
+    },
+    {
+      "rank": 5,
+      "combo_id": "119",
+      "parameters": {
+        "fvg_min_gap_pips": 6,
+        "fvg_risk_reward_ratio": 2.0,
+        "atr_sl_multiplier": 2.5
+      },
+      "total_profit": 1942.7534776012963,
+      "avg_win_rate": 64.79902557856273,
+      "total_trades": 821
+    },
+    {
+      "rank": 6,
+      "combo_id": "032",
+      "parameters": {
+        "fvg_min_gap_pips": 3,
+        "fvg_risk_reward_ratio": 1.0,
+        "atr_sl_multiplier": 3.0
+      },
+      "total_profit": 1839.6325976054413,
+      "avg_win_rate": 69.14473684210526,
+      "total_trades": 1520
+    },
+    {
+      "rank": 7,
+      "combo_id": "123",
+      "parameters": {
+        "fvg_min_gap_pips": 6,
+        "fvg_risk_reward_ratio": 2.5,
+        "atr_sl_multiplier": 3.0
+      },
+      "total_profit": 1766.4388880809765,
+      "avg_win_rate": 69.81865284974094,
+      "total_trades": 772
+    },
+    {
+      "rank": 8,
+      "combo_id": "088",
+      "parameters": {
+        "fvg_min_gap_pips": 5,
+        "fvg_risk_reward_ratio": 1.5,
+        "atr_sl_multiplier": 3.0
+      },
+      "total_profit": 1643.479513148015,
+      "avg_win_rate": 69.29375639713409,
+      "total_trades": 977
+    },
+    {
+      "rank": 9,
+      "combo_id": "192",
+      "parameters": {
+        "fvg_min_gap_pips": 10,
+        "fvg_risk_reward_ratio": 2.0,
+        "atr_sl_multiplier": 2.0
+      },
+      "total_profit": 1632.4352139172315,
+      "avg_win_rate": 61.33333333333333,
+      "total_trades": 375
+    },
+    {
+      "rank": 10,
+      "combo_id": "161",
+      "parameters": {
+        "fvg_min_gap_pips": 8,
+        "fvg_risk_reward_ratio": 1.5,
+        "atr_sl_multiplier": 2.5
+      },
+      "total_profit": 1537.6405739621532,
+      "avg_win_rate": 66.42468239564428,
+      "total_trades": 551
+    }
+  ],
+  "best_parameters": {
+    "fvg_min_gap_pips": 3,
+    "fvg_risk_reward_ratio": 2.0,
+    "atr_sl_multiplier": 3.0
+  }
+}

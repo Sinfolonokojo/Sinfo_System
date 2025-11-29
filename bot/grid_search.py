@@ -281,10 +281,27 @@ class GridSearchRunner:
         if all_results:
             summary['best_parameters'] = all_results[0]['parameters']
 
-            # Save best parameters separately
+            # Calculate aggregate metrics for best result
+            best_result = all_results[0]
+
+            # Calculate average profit factor and max drawdown across symbols
+            pf_values = [r['profit_factor'] for r in best_result['results'].values() if r['profit_factor'] > 0]
+            dd_values = [r['max_drawdown_pct'] for r in best_result['results'].values()]
+
+            avg_profit_factor = sum(pf_values) / len(pf_values) if pf_values else 0
+            max_drawdown = max(dd_values) if dd_values else 0
+
+            # Save best parameters with performance metrics
             best_params_file = os.path.join(self.run_dir, 'best_params.json')
             with open(best_params_file, 'w') as f:
-                json.dump(all_results[0]['parameters'], f, indent=2)
+                json.dump({
+                    **best_result['parameters'],  # Include all parameters
+                    'profit': best_result['aggregate']['total_profit'],
+                    'win_rate': best_result['aggregate']['avg_win_rate'],
+                    'profit_factor': avg_profit_factor,
+                    'max_drawdown_pct': max_drawdown,
+                    'total_trades': best_result['aggregate']['total_trades']
+                }, f, indent=2)
 
         # Save summary
         summary_file = os.path.join(self.run_dir, 'summary.json')

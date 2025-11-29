@@ -100,10 +100,10 @@ class WalkForwardValidator:
         elif result.win_rate < 55:
             score *= 0.8
 
-        # Adjust for drawdown (penalize high drawdown)
-        if result.max_drawdown_pct > 15:
+        # Adjust for drawdown (penalize high drawdown) - Strict 5% standard
+        if result.max_drawdown_pct > 5:
             score *= 0.7
-        elif result.max_drawdown_pct > 20:
+        elif result.max_drawdown_pct > 10:
             score *= 0.5
 
         return score

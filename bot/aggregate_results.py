@@ -146,8 +146,16 @@ class ResultsAggregator:
 
         # Prepare data for intelligent ranker
         all_result_data = []
+        # Known metric fields to exclude from parameters
+        metric_fields = {'profit', 'win_rate', 'profit_factor', 'max_drawdown_pct',
+                        'total_trades', 'consistency_score', 'composite_score'}
+
         for result in self.results:
             best = result['best_params']
+
+            # Extract parameters (exclude metric fields)
+            parameters = {k: v for k, v in best.items() if k not in metric_fields}
+
             result_data = {
                 'strategy': result['strategy'],
                 'phase': result['phase'],
@@ -158,7 +166,7 @@ class ResultsAggregator:
                 'max_drawdown_pct': best.get('max_drawdown_pct', 0),
                 'total_trades': best.get('total_trades', 0),
                 'consistency_score': best.get('consistency_score'),  # If available from multi-period
-                'parameters': best.get('parameters', {})
+                'parameters': parameters
             }
             all_result_data.append(result_data)
 

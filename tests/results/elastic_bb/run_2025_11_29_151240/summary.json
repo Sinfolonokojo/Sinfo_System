@@ -1,0 +1,159 @@
+{
+  "run_directory": "tests/results\\elastic_bb\\run_2025_11_29_151240",
+  "strategy": "elastic_bb",
+  "total_combinations_tested": 200,
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY"
+  ],
+  "top_10_by_profit": [
+    {
+      "rank": 1,
+      "combo_id": "083",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 15,
+        "bb_std_dev": 1.5,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 2,
+      "combo_id": "088",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 15,
+        "bb_std_dev": 2.0,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 3,
+      "combo_id": "093",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 18,
+        "bb_std_dev": 1.5,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 4,
+      "combo_id": "098",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 18,
+        "bb_std_dev": 2.0,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 5,
+      "combo_id": "103",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 20,
+        "bb_std_dev": 1.5,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 6,
+      "combo_id": "108",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 20,
+        "bb_std_dev": 2.0,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 7,
+      "combo_id": "113",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 25,
+        "bb_std_dev": 1.5,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 8,
+      "combo_id": "118",
+      "parameters": {
+        "rsi_period": 9,
+        "bb_period": 25,
+        "bb_std_dev": 2.0,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 3256.3452460672797,
+      "avg_win_rate": 65.57377049180327,
+      "total_trades": 366
+    },
+    {
+      "rank": 9,
+      "combo_id": "003",
+      "parameters": {
+        "rsi_period": 5,
+        "bb_period": 15,
+        "bb_std_dev": 1.5,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 2632.983496808678,
+      "avg_win_rate": 62.95871559633027,
+      "total_trades": 872
+    },
+    {
+      "rank": 10,
+      "combo_id": "008",
+      "parameters": {
+        "rsi_period": 5,
+        "bb_period": 15,
+        "bb_std_dev": 2.0,
+        "atr_sl_multiplier": 2.5,
+        "elastic_bb_rr_ratio": 1.0
+      },
+      "total_profit": 2632.983496808678,
+      "avg_win_rate": 62.95871559633027,
+      "total_trades": 872
+    }
+  ],
+  "best_parameters": {
+    "rsi_period": 9,
+    "bb_period": 15,
+    "bb_std_dev": 1.5,
+    "atr_sl_multiplier": 2.5,
+    "elastic_bb_rr_ratio": 1.0
+  }
+}

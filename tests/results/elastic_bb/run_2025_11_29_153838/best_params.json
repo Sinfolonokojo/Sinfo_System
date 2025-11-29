@@ -1,0 +1,12 @@
+{
+  "rsi_period": 9,
+  "bb_period": 15,
+  "bb_std_dev": 1.5,
+  "atr_sl_multiplier": 2.5,
+  "elastic_bb_rr_ratio": 1.0,
+  "profit": 3256.3452460672797,
+  "win_rate": 65.57377049180327,
+  "profit_factor": 1.2760149664126588,
+  "max_drawdown_pct": 9.413517472649001,
+  "total_trades": 366
+}

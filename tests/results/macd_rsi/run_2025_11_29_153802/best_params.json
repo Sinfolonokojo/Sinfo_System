@@ -1,0 +1,13 @@
+{
+  "macd_fast": 8,
+  "macd_slow": 21,
+  "macd_signal": 7,
+  "rsi_period": 5,
+  "macd_rsi_atr_sl": 1.25,
+  "macd_rsi_rr_ratio": 1.25,
+  "profit": 2370.675039768563,
+  "win_rate": 56.60377358490566,
+  "profit_factor": 1.0468937292272313,
+  "max_drawdown_pct": 26.137486659919084,
+  "total_trades": 954
+}

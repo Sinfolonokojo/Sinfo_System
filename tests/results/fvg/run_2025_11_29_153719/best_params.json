@@ -1,0 +1,10 @@
+{
+  "fvg_min_gap_pips": 3,
+  "fvg_risk_reward_ratio": 2.0,
+  "atr_sl_multiplier": 3.0,
+  "profit": 3214.752941957724,
+  "win_rate": 68.39887640449437,
+  "profit_factor": 1.0786085309152815,
+  "max_drawdown_pct": 25.21296174345836,
+  "total_trades": 1424
+}

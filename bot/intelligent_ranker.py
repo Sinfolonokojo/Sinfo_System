@@ -23,7 +23,7 @@ class QualityGates:
         self,
         min_win_rate: float = 55.0,
         min_profit_factor: float = 1.3,
-        max_drawdown_pct: float = 15.0,
+        max_drawdown_pct: float = 5.0,  # Strict drawdown requirement
         min_trades: int = 30
     ):
         self.min_win_rate = min_win_rate

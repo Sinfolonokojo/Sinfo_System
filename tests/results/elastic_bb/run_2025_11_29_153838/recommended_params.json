@@ -1,0 +1,30 @@
+{
+  "best_profit": {
+    "rsi_period": 9,
+    "bb_period": 15,
+    "bb_std_dev": 1.5,
+    "atr_sl_multiplier": 2.5,
+    "elastic_bb_rr_ratio": 1.0
+  },
+  "best_win_rate": {
+    "rsi_period": 14,
+    "bb_period": 15,
+    "bb_std_dev": 1.5,
+    "atr_sl_multiplier": 2.5,
+    "elastic_bb_rr_ratio": 1.0
+  },
+  "best_drawdown": {
+    "rsi_period": 14,
+    "bb_period": 15,
+    "bb_std_dev": 1.75,
+    "atr_sl_multiplier": 2.0,
+    "elastic_bb_rr_ratio": 1.0
+  },
+  "best_risk_adjusted": {
+    "rsi_period": 9,
+    "bb_period": 15,
+    "bb_std_dev": 1.5,
+    "atr_sl_multiplier": 2.5,
+    "elastic_bb_rr_ratio": 1.0
+  }
+}

@@ -41,6 +41,22 @@ class BacktestTrade:
     exit_reason: str  # 'TP', 'SL', 'TIME'
     duration_minutes: int
 
+    # Market features for ML validation (added for strategy validation)
+    rsi_at_entry: float = 0.0
+    ema_trend_value: float = 0.0
+    ema_reversion_value: float = 0.0
+    atr_at_entry: float = 0.0
+    distance_to_ema_pips: float = 0.0
+    trend_strength: float = 0.0  # How far price is from trend EMA
+    is_trending: bool = False  # Above/below trend EMA
+
+    # Strategy parameters used
+    rsi_period: int = 14
+    atr_sl_multiplier: float = 2.0
+    risk_reward_ratio: float = 1.5
+    ema_touch_tolerance_pips: int = 2
+    ema_reversion_period: int = 50
+
 
 @dataclass
 class BacktestResult:
@@ -201,6 +217,15 @@ class Backtester:
         position_tp = 0.0
         position_volume = 0.0
 
+        # Market features at entry (for validation)
+        entry_rsi = 0.0
+        entry_ema_trend = 0.0
+        entry_ema_reversion = 0.0
+        entry_atr = 0.0
+        entry_distance_to_ema = 0.0
+        entry_trend_strength = 0.0
+        entry_is_trending = False
+
         # Start after we have enough data for indicators
         start_idx = self.ema_trend_period + 10
 
@@ -258,7 +283,7 @@ class Backtester:
 
                     balance += profit
 
-                    # Record trade
+                    # Record trade with market features
                     trade = BacktestTrade(
                         entry_time=datetime.fromtimestamp(times[position_entry_idx]),
                         exit_time=current_time,
@@ -272,7 +297,21 @@ class Backtester:
                         profit=profit,
                         profit_pips=profit_pips,
                         exit_reason=exit_reason,
-                        duration_minutes=duration_minutes
+                        duration_minutes=duration_minutes,
+                        # Market features at entry (for ML validation)
+                        rsi_at_entry=entry_rsi,
+                        ema_trend_value=entry_ema_trend,
+                        ema_reversion_value=entry_ema_reversion,
+                        atr_at_entry=entry_atr,
+                        distance_to_ema_pips=entry_distance_to_ema,
+                        trend_strength=entry_trend_strength,
+                        is_trending=entry_is_trending,
+                        # Strategy parameters used
+                        rsi_period=self.rsi_period,
+                        atr_sl_multiplier=self.atr_sl_multiplier,
+                        risk_reward_ratio=self.rr_ratio,
+                        ema_touch_tolerance_pips=self.ema_tolerance_pips,
+                        ema_reversion_period=self.ema_reversion_period
                     )
                     trades.append(trade)
 
@@ -340,6 +379,15 @@ class Backtester:
                             position_sl = entry_price + sl_distance
                             position_tp = entry_price - tp_distance
 
+                        # Capture market features at entry (for ML validation)
+                        entry_rsi = rsi[i]
+                        entry_ema_trend = ema_trend[i]
+                        entry_ema_reversion = ema_reversion[i]
+                        entry_atr = atr[i]
+                        entry_distance_to_ema = abs(close[i] - ema_reversion[i]) / pip_size
+                        entry_trend_strength = abs(ema_trend[i] - ema_reversion[i]) / close[i]
+                        entry_is_trending = close[i] > ema_trend[i] if signal == 'BUY' else close[i] < ema_trend[i]
+
                         # Enter position
                         in_position = True
                         position_entry_idx = i
@@ -359,6 +407,14 @@ class Backtester:
         )
 
         self._log_results(result)
+
+        # Save trades for ML validation
+        if trades:
+            import os
+            os.makedirs('tests/validation_data', exist_ok=True)
+            output_file = f'tests/validation_data/{symbol}_trades.json'
+            self.save_trades_for_validation(trades, output_file)
+
         return result
 
     def _fetch_historical_data(
@@ -627,3 +683,36 @@ class Backtester:
         self.logger.info(f"Max Drawdown: ${result.max_drawdown:.2f} ({result.max_drawdown_pct:.1f}%)")
         self.logger.info(f"Max Consecutive Losses: {result.max_consecutive_losses}")
         self.logger.info("=" * 60)
+
+    def save_trades_for_validation(self, trades: List[BacktestTrade], output_file: str):
+        """
+        Save individual trade data to JSON for ML validation.
+
+        Args:
+            trades: List of BacktestTrade objects
+            output_file: Path to save JSON file
+        """
+        import json
+        from dataclasses import asdict
+        import numpy as np
+
+        trade_data = []
+        for trade in trades:
+            trade_dict = asdict(trade)
+            # Convert datetime objects to ISO format strings
+            trade_dict['entry_time'] = trade.entry_time.isoformat()
+            trade_dict['exit_time'] = trade.exit_time.isoformat()
+            # Add win flag
+            trade_dict['win'] = 1 if trade.profit > 0 else 0
+            # Convert numpy types to Python types
+            for key, value in trade_dict.items():
+                if isinstance(value, (np.integer, np.floating)):
+                    trade_dict[key] = float(value)
+                elif isinstance(value, np.bool_):
+                    trade_dict[key] = bool(value)
+            trade_data.append(trade_dict)
+
+        with open(output_file, 'w') as f:
+            json.dump(trade_data, f, indent=2)
+
+        self.logger.info(f"Saved {len(trade_data)} trades to {output_file}")

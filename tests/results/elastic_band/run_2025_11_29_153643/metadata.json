@@ -1,0 +1,15 @@
+{
+  "run_id": "run_2025_11_29_153643",
+  "strategy": "elastic_band",
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY"
+  ],
+  "phase": "challenge",
+  "start_date": "2025-06-02T15:36:43.208164",
+  "end_date": "2025-11-29T15:36:43.208164",
+  "initial_balance": 10000.0,
+  "total_combinations": 200,
+  "created_at": "2025-11-29T15:36:43.209193"
+}

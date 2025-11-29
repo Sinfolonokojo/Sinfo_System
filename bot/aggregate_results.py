@@ -15,6 +15,7 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from utils import setup_logger
+from bot.intelligent_ranker import IntelligentRanker, QualityGates, create_ranker
 
 logger = setup_logger("AGGREGATOR")
 
@@ -22,17 +23,31 @@ logger = setup_logger("AGGREGATOR")
 class ResultsAggregator:
     """Aggregates and compares results from multiple grid search runs."""
 
-    def __init__(self, batch_dir: Optional[str] = None, run_dirs: Optional[List[str]] = None):
+    def __init__(
+        self,
+        batch_dir: Optional[str] = None,
+        run_dirs: Optional[List[str]] = None,
+        ranking_profile: str = 'balanced',
+        quality_gates: Optional[QualityGates] = None
+    ):
         """
         Initialize aggregator.
 
         Args:
             batch_dir: Directory containing batch_metadata.json from batch run.
             run_dirs: List of individual run directories to compare.
+            ranking_profile: Ranking profile ('balanced', 'aggressive', 'conservative', 'challenge')
+            quality_gates: Custom quality gates (uses defaults if None)
         """
         self.results = []
         self.batch_dir = Path(batch_dir) if batch_dir else None
         self.run_dirs = [Path(d) for d in run_dirs] if run_dirs else []
+
+        # Create intelligent ranker
+        if quality_gates:
+            self.ranker = IntelligentRanker(quality_gates=quality_gates)
+        else:
+            self.ranker = create_ranker(ranking_profile)
 
     def load_results(self):
         """Load results from batch or individual runs."""
@@ -118,6 +133,8 @@ class ResultsAggregator:
         """
         Generate unified comparison across all loaded results.
 
+        Uses IntelligentRanker for composite scoring and quality gates.
+
         Returns:
             Dictionary with comparison data.
         """
@@ -127,17 +144,49 @@ class ResultsAggregator:
 
         logger.info(f"Comparing {len(self.results)} grid search runs")
 
-        # Rank by different metrics
+        # Prepare data for intelligent ranker
+        all_result_data = []
+        for result in self.results:
+            best = result['best_params']
+            result_data = {
+                'strategy': result['strategy'],
+                'phase': result['phase'],
+                'run_dir': result['run_dir'],
+                'net_profit': best.get('profit', 0),
+                'win_rate': best.get('win_rate', 0),
+                'profit_factor': best.get('profit_factor', 0),
+                'max_drawdown_pct': best.get('max_drawdown_pct', 0),
+                'total_trades': best.get('total_trades', 0),
+                'consistency_score': best.get('consistency_score'),  # If available from multi-period
+                'parameters': best.get('parameters', {})
+            }
+            all_result_data.append(result_data)
+
+        # Apply intelligent ranking
+        logger.info("Applying quality gates and composite scoring...")
+        ranked_results = self.ranker.rank_results(all_result_data, apply_gates=True)
+
+        # Generate comparison report
         comparison = {
             'total_runs': len(self.results),
+            'passed_quality_gates': len(ranked_results),
+            'failed_quality_gates': len(self.results) - len(ranked_results),
+            'pass_rate': (len(ranked_results) / len(self.results) * 100) if self.results else 0,
             'rankings': {
+                'by_composite_score': ranked_results,  # Already sorted by composite score
                 'by_profit': self._rank_by_metric('profit'),
                 'by_win_rate': self._rank_by_metric('win_rate'),
                 'by_profit_factor': self._rank_by_metric('profit_factor'),
                 'by_lowest_drawdown': self._rank_by_metric('max_drawdown_pct', reverse=True),
                 'by_risk_adjusted': self._rank_by_risk_adjusted()
             },
-            'best_overall': self._determine_best_overall(),
+            'best_overall': ranked_results[0] if ranked_results else {},
+            'quality_gates': {
+                'min_win_rate': self.ranker.quality_gates.min_win_rate,
+                'min_profit_factor': self.ranker.quality_gates.min_profit_factor,
+                'max_drawdown_pct': self.ranker.quality_gates.max_drawdown_pct,
+                'min_trades': self.ranker.quality_gates.min_trades,
+            },
             'timestamp': datetime.now().isoformat()
         }
 
@@ -222,34 +271,64 @@ class ResultsAggregator:
         """Print comparison report to console."""
         logger.info("")
         logger.info("=" * 100)
-        logger.info("MULTI-STRATEGY COMPARISON REPORT")
+        logger.info("MULTI-STRATEGY COMPARISON REPORT (Intelligent Ranking)")
         logger.info("=" * 100)
         logger.info(f"Total Runs Compared: {comparison['total_runs']}")
+        logger.info(f"Passed Quality Gates: {comparison['passed_quality_gates']} ({comparison['pass_rate']:.1f}%)")
+        logger.info(f"Failed Quality Gates: {comparison['failed_quality_gates']}")
+        logger.info("")
+        logger.info("Quality Gate Requirements:")
+        gates = comparison['quality_gates']
+        logger.info(f"  - Win Rate >= {gates['min_win_rate']}%")
+        logger.info(f"  - Profit Factor >= {gates['min_profit_factor']}")
+        logger.info(f"  - Max Drawdown <= {gates['max_drawdown_pct']}%")
+        logger.info(f"  - Minimum Trades >= {gates['min_trades']}")
         logger.info("=" * 100)
 
         # Best Overall
         logger.info("")
-        logger.info("─" * 100)
-        logger.info("🏆 BEST OVERALL (Risk-Adjusted)")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
+        logger.info("[BEST] BEST OVERALL (Composite Score)")
+        logger.info("-" * 100)
         best = comparison['best_overall']
         if best:
             logger.info(f"Strategy: {best['strategy'].upper()} (Phase {best['phase']})")
-            logger.info(f"Profit: ${best['profit']:.2f}")
-            logger.info(f"Win Rate: {best['win_rate']:.1f}%")
-            logger.info(f"Max Drawdown: {best['max_drawdown_pct']:.2f}%")
-            logger.info(f"Risk-Adjusted Score: {best['risk_adjusted_score']:.2f}")
-            logger.info(f"Total Trades: {best['total_trades']}")
-            logger.info(f"Parameters: {json.dumps(best['parameters'], indent=2)}")
-            logger.info(f"Results: {best['run_dir']}")
+            logger.info(f"Composite Score: {best.get('composite_score', 0):.2f} / 100")
+            logger.info(f"Profit: ${best.get('net_profit', 0):.2f}")
+            logger.info(f"Win Rate: {best.get('win_rate', 0):.1f}%")
+            logger.info(f"Profit Factor: {best.get('profit_factor', 0):.2f}")
+            logger.info(f"Max Drawdown: {best.get('max_drawdown_pct', 0):.2f}%")
+            logger.info(f"Total Trades: {best.get('total_trades', 0)}")
+            if best.get('consistency_score') is not None:
+                logger.info(f"Consistency Score: {best.get('consistency_score'):.2f} (multi-period)")
+            logger.info(f"Parameters: {json.dumps(best.get('parameters', {}), indent=2)}")
+            logger.info(f"Results: {best.get('run_dir', '')}")
+        else:
+            logger.warning("[FAILED] NO PARAMETERS PASSED QUALITY GATES!")
+
+        # Top 5 by Composite Score
+        logger.info("")
+        logger.info("-" * 100)
+        logger.info("[TOP 5] BY COMPOSITE SCORE (Recommended)")
+        logger.info("-" * 100)
+        logger.info(f"{'Rank':<6} {'Strategy':<20} {'Phase':<7} {'Score':<12} {'Profit':<10} {'Win Rate':<10} {'Max DD':<10}")
+        logger.info("-" * 100)
+
+        composite_ranking = comparison['rankings'].get('by_composite_score', [])
+        for i, item in enumerate(composite_ranking[:5], 1):
+            logger.info(
+                f"{i:<6} {item['strategy'].upper():<20} {item['phase']:<7} "
+                f"{item.get('composite_score', 0):<11.1f} ${item.get('net_profit', 0):<9.2f} "
+                f"{item.get('win_rate', 0):<9.1f}% {item.get('max_drawdown_pct', 0):<9.2f}%"
+            )
 
         # Top 5 by Profit
         logger.info("")
-        logger.info("─" * 100)
-        logger.info("💰 TOP 5 BY PROFIT")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
+        logger.info("[TOP 5] BY PROFIT")
+        logger.info("-" * 100)
         logger.info(f"{'Rank':<6} {'Strategy':<20} {'Phase':<7} {'Profit':<12} {'Win Rate':<10} {'Trades':<8}")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
 
         for i, item in enumerate(comparison['rankings']['by_profit'][:5], 1):
             logger.info(
@@ -259,11 +338,11 @@ class ResultsAggregator:
 
         # Top 5 by Win Rate
         logger.info("")
-        logger.info("─" * 100)
-        logger.info("🎯 TOP 5 BY WIN RATE")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
+        logger.info("[TOP 5] BY WIN RATE")
+        logger.info("-" * 100)
         logger.info(f"{'Rank':<6} {'Strategy':<20} {'Phase':<7} {'Win Rate':<12} {'Profit':<10} {'Trades':<8}")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
 
         for i, item in enumerate(comparison['rankings']['by_win_rate'][:5], 1):
             logger.info(
@@ -273,11 +352,11 @@ class ResultsAggregator:
 
         # Top 5 by Lowest Drawdown (Safest)
         logger.info("")
-        logger.info("─" * 100)
-        logger.info("🛡️  TOP 5 BY LOWEST DRAWDOWN (Safest)")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
+        logger.info("[TOP 5] BY LOWEST DRAWDOWN (Safest)")
+        logger.info("-" * 100)
         logger.info(f"{'Rank':<6} {'Strategy':<20} {'Phase':<7} {'Max DD':<12} {'Profit':<10} {'Win Rate':<10}")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
 
         for i, item in enumerate(comparison['rankings']['by_lowest_drawdown'][:5], 1):
             logger.info(
@@ -287,11 +366,11 @@ class ResultsAggregator:
 
         # Top 5 by Risk-Adjusted
         logger.info("")
-        logger.info("─" * 100)
-        logger.info("📊 TOP 5 BY RISK-ADJUSTED RETURN (Recommended)")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
+        logger.info("[TOP 5] BY RISK-ADJUSTED RETURN (Recommended)")
+        logger.info("-" * 100)
         logger.info(f"{'Rank':<6} {'Strategy':<20} {'Phase':<7} {'Score':<12} {'Profit':<10} {'Max DD':<10}")
-        logger.info("─" * 100)
+        logger.info("-" * 100)
 
         for i, item in enumerate(comparison['rankings']['by_risk_adjusted'][:5], 1):
             logger.info(
@@ -315,7 +394,7 @@ class ResultsAggregator:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Aggregate and compare results from multiple grid search runs'
+        description='Aggregate and compare results from multiple grid search runs with intelligent ranking'
     )
     parser.add_argument(
         '--batch',
@@ -332,18 +411,27 @@ def main():
         type=str,
         help='Output file for comparison JSON (optional)'
     )
+    parser.add_argument(
+        '--profile',
+        type=str,
+        choices=['balanced', 'aggressive', 'conservative', 'challenge'],
+        default='balanced',
+        help='Ranking profile (default: balanced)'
+    )
 
     args = parser.parse_args()
 
     if not args.batch and not args.runs:
         parser.error("Must provide either --batch or --runs")
 
+    logger.info(f"Using ranking profile: {args.profile}")
+
     # Create aggregator
     if args.batch:
-        aggregator = ResultsAggregator(batch_dir=args.batch)
+        aggregator = ResultsAggregator(batch_dir=args.batch, ranking_profile=args.profile)
     else:
         run_dirs = [d.strip() for d in args.runs.split(',')]
-        aggregator = ResultsAggregator(run_dirs=run_dirs)
+        aggregator = ResultsAggregator(run_dirs=run_dirs, ranking_profile=args.profile)
 
     # Load and compare results
     aggregator.load_results()

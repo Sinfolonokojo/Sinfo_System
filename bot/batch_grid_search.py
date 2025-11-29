@@ -191,7 +191,7 @@ class BatchGridSearchRunner:
     def _generate_parameters(self, strategy: str):
         """Generate parameter combinations for a strategy."""
         cmd = [
-            'python', 'bot/optimize_parameters.py',
+            sys.executable, 'bot/optimize_parameters.py',
             '--strategy', strategy,
             '--max-combinations', str(self.max_combinations)
         ]
@@ -206,7 +206,7 @@ class BatchGridSearchRunner:
         params_file = f"tests/parameter_sets/{strategy}_params.json"
 
         cmd = [
-            'python', 'bot/grid_search.py',
+            sys.executable, 'bot/grid_search.py',
             '--strategy', strategy,
             '--params', params_file,
             '--symbols', ','.join(self.symbols),
@@ -235,7 +235,7 @@ class BatchGridSearchRunner:
     def _analyze_results(self, run_dir: Path) -> Optional[Dict[str, Any]]:
         """Analyze grid search results."""
         cmd = [
-            'python', 'bot/analyze_results.py',
+            sys.executable, 'bot/analyze_results.py',
             '--run', str(run_dir)
         ]
 

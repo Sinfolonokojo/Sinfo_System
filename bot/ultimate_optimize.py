@@ -244,7 +244,7 @@ class UltimateOptimizer:
             logger.info(f"  Generating {self.max_combinations} combinations for {strategy.upper()}...")
 
             cmd = [
-                'python', 'bot/optimize_parameters.py',
+                sys.executable, 'bot/optimize_parameters.py',
                 '--strategy', strategy,
                 '--max-combinations', str(self.max_combinations)
             ]
@@ -279,7 +279,7 @@ class UltimateOptimizer:
             logger.info(f"  Starting new batch run...")
 
         cmd = [
-            'python', 'bot/batch_grid_search.py',
+            sys.executable, 'bot/batch_grid_search.py',
             '--strategies', ','.join(self.strategies),
             '--symbols', ','.join(self.symbols),
             '--phases', ','.join(map(str, self.phases)),
@@ -333,7 +333,7 @@ class UltimateOptimizer:
         logger.info("-" * 80)
 
         cmd = [
-            'python', 'bot/aggregate_results.py',
+            sys.executable, 'bot/aggregate_results.py',
             '--batch', str(self.batch_dir),
             '--profile', 'balanced'
         ]
@@ -475,7 +475,7 @@ class UltimateOptimizer:
         config_manager = Path('bot/config_manager.py')
         if config_manager.exists():
             cmd = [
-                'python', 'bot/config_manager.py',
+                sys.executable, 'bot/config_manager.py',
                 '--apply', str(best_params_file)
             ]
 
